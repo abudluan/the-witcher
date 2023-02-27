@@ -15,18 +15,19 @@ body {
 #home {
   text-align: center;
   margin-top: 18em;
-}
-#home img {
-  height: 20em;
-}
-#home a {
-  color: white;
-  text-decoration: none;
-}
-#home a h4 {
-  margin-top: 2em;
+
+   img{
+    height: 20em;
+   }
+
+   a{
+    color: white;
+    text-decoration: none;
+    h4{
+      margin-top: 2em;
+    }
+   }
+
 }
 
-
-
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.scss.map */
