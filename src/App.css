@@ -25,6 +25,30 @@ body {
 }
 #home a h4 {
   margin-top: 2em;
+  text-align: center;
+}
+#home a p {
+  text-align: justify !important;
+  text-justify: inter-word;
+  text-align: center;
+}
+@media (max-width: 320px) {
+  #home {
+    margin-top: 7em;
+  }
+  #home img {
+    height: 10em;
+    padding: 1em;
+  }
+  #home a h4 {
+    margin-top: 0.5em;
+  }
+  #home a p {
+    margin-top: -2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.75em;
+  }
 }
 
 

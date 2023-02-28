@@ -13,6 +13,7 @@ body {
 }
 
 #home {
+
   text-align: center;
   margin-top: 18em;
 
@@ -23,11 +24,41 @@ body {
    a{
     color: white;
     text-decoration: none;
+
     h4{
       margin-top: 2em;
+      text-align: center;
     }
+
+    p{
+      text-align: justify !important;
+      text-justify: inter-word;
+      text-align: center;
+    }
+
    }
 
+   @media (max-width: 320px){
+
+    margin-top: 7em;
+
+    img{
+      height: 10em;
+      padding: 1em;
+    }
+    a{
+      h4{
+        margin-top: 0.5em;
+      }
+      
+      p{
+        margin-top: -2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 0.75em;
+      }
+     }
+   }
 }
 
 /*# sourceMappingURL=App.scss.map */
