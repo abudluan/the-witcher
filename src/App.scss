@@ -14,7 +14,7 @@ body {
 
 #home {
 
-  text-align: center;
+  margin-top: 10%;
 
    img{
     height: 100%;
@@ -40,8 +40,6 @@ body {
    }
 
    @media (max-width: 320px){
-
-    margin-top: 20%;
     
     a{
       
@@ -59,7 +57,6 @@ body {
 
    @media (min-width: 320px){
 
-    margin-top: 20%;
 
     a{
       
@@ -76,7 +73,6 @@ body {
    }
 
    @media (min-width: 360px){
-    margin-top: 20%;
 
     a{
       
@@ -93,7 +89,6 @@ body {
   }
 
    @media (min-width: 378px){
-    margin-top: 20%;
       
     a{
       
@@ -111,7 +106,7 @@ body {
    }
 
    @media (min-width: 425px){
-    margin-top: 20%;
+    
 
     a{
       
@@ -128,7 +123,7 @@ body {
    }
 
    @media (min-width: 768px){
-    margin-top: 20%;
+    
 
     a{
       
@@ -146,12 +141,12 @@ body {
    }
 
    @media (min-width: 900px){
-    margin-top: 20%;
+    
       
    }
 
    @media (min-width: 1440px){
-    margin-top: 10%;
+    
 
     a{
       
@@ -168,5 +163,7 @@ body {
       
    }
 }
+
+
 
 /*# sourceMappingURL=App.scss.map */
