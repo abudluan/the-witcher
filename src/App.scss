@@ -41,7 +41,7 @@ body {
 
    @media (max-width: 320px){
 
-    margin-top: 50%;
+    margin-top: 20%;
     
     a{
       
@@ -58,24 +58,90 @@ body {
    }
 
    @media (min-width: 320px){
+
     margin-top: 20%;
+
+    a{
+      
+      h4{
+        margin-top: 0.2em;
+      }
+      
+      p{
+        
+        margin-top: -2.3em;
+        font-size: 0.8em;
+      }
+     }
    }
 
    @media (min-width: 360px){
     margin-top: 20%;
+
+    a{
+      
+      h4{
+        margin-top: 0.4em;
+      }
+      
+      p{
+        
+        margin-top: -2em;
+        font-size: 0.9em;
+      }
+     }
   }
 
    @media (min-width: 378px){
     margin-top: 20%;
       
+    a{
+      
+      h4{
+        margin-top: 0.4em;
+      }
+      
+      p{
+        
+        margin-top: -2em;
+        font-size: 1em;
+      }
+     }
+    
    }
 
    @media (min-width: 425px){
     margin-top: 20%;
+
+    a{
+      
+      h4{
+        margin-top: 0.4em;
+      }
+      
+      p{
+        
+        margin-top: -1.5em;
+        font-size: 1em;
+      }
+     }
    }
 
    @media (min-width: 768px){
     margin-top: 20%;
+
+    a{
+      
+      h4{
+        margin-top: 0.4em;
+      }
+      
+      p{
+        
+        margin-top: -2em;
+        font-size: 0.9em;
+      }
+     }
       
    }
 
@@ -86,6 +152,19 @@ body {
 
    @media (min-width: 1440px){
     margin-top: 10%;
+
+    a{
+      
+      h4{
+        margin-top: 1.5em;
+      }
+      
+      p{
+        
+        margin-top: 0em;
+        font-size: 1.2em;
+      }
+     }
       
    }
 }

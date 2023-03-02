@@ -35,7 +35,7 @@ body {
 }
 @media (max-width: 320px) {
   #home {
-    margin-top: 50%;
+    margin-top: 20%;
   }
   #home a h4 {
     margin-top: 0.2em;
@@ -49,25 +49,60 @@ body {
   #home {
     margin-top: 20%;
   }
+  #home a h4 {
+    margin-top: 0.2em;
+  }
+  #home a p {
+    margin-top: -2.3em;
+    font-size: 0.8em;
+  }
 }
 @media (min-width: 360px) {
   #home {
     margin-top: 20%;
+  }
+  #home a h4 {
+    margin-top: 0.4em;
+  }
+  #home a p {
+    margin-top: -2em;
+    font-size: 0.9em;
   }
 }
 @media (min-width: 378px) {
   #home {
     margin-top: 20%;
   }
+  #home a h4 {
+    margin-top: 0.4em;
+  }
+  #home a p {
+    margin-top: -2em;
+    font-size: 1em;
+  }
 }
 @media (min-width: 425px) {
   #home {
     margin-top: 20%;
   }
+  #home a h4 {
+    margin-top: 0.4em;
+  }
+  #home a p {
+    margin-top: -1.5em;
+    font-size: 1em;
+  }
 }
 @media (min-width: 768px) {
   #home {
     margin-top: 20%;
+  }
+  #home a h4 {
+    margin-top: 0.4em;
+  }
+  #home a p {
+    margin-top: -2em;
+    font-size: 0.9em;
   }
 }
 @media (min-width: 900px) {
@@ -78,6 +113,13 @@ body {
 @media (min-width: 1440px) {
   #home {
     margin-top: 10%;
+  }
+  #home a h4 {
+    margin-top: 1.5em;
+  }
+  #home a p {
+    margin-top: 0em;
+    font-size: 1.2em;
   }
 }
 
