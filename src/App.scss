@@ -15,7 +15,6 @@ body {
 #home {
 
   text-align: center;
-  margin-top: 10%;
 
    img{
     height: 100%;
@@ -42,45 +41,51 @@ body {
 
    @media (max-width: 320px){
 
-    margin-top: 40%;
-
+    margin-top: 50%;
+    
     a{
+      
       h4{
-        margin-top: 0.5em;
+        margin-top: 0.2em;
       }
       
       p{
-        margin-top: -2.5em;
-        font-size: 0.74em;
+        
+        margin-top: -2.8em;
+        font-size: 0.7em;
       }
      }
    }
 
    @media (min-width: 320px){
-
+    margin-top: 20%;
    }
 
    @media (min-width: 360px){
-   
+    margin-top: 20%;
   }
 
    @media (min-width: 378px){
+    margin-top: 20%;
       
    }
 
    @media (min-width: 425px){
-      
+    margin-top: 20%;
    }
 
    @media (min-width: 768px){
+    margin-top: 20%;
       
    }
 
    @media (min-width: 900px){
+    margin-top: 20%;
       
    }
 
    @media (min-width: 1440px){
+    margin-top: 10%;
       
    }
 }

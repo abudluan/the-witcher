@@ -9,7 +9,7 @@ const Home = () => {
         <section id='home'>
             <MDBContainer>
                 <MDBRow>
-                    <MDBCol size='md' className='bg-image hover-overlay py-2'>
+                    <MDBCol size='md' className='bg-image hover-overlay'>
                         <img src={escolasLogo} className='img-fluid rounded' />
                         <a href='#!'>
                             <div className='mask overlay' style={{ backgroundColor: 'rgba(36, 36, 36, 0.8)' }}>
@@ -19,7 +19,7 @@ const Home = () => {
                             </div>
                         </a>
                     </MDBCol>
-                    <MDBCol size='md' className='bg-image hover-overlay py-2'>
+                    <MDBCol size='md' className='bg-image hover-overlay'>
                         <img src={sinaisLogo} className='img-fluid rounded' />
                         <a href='#!'>
                             <div className='mask overlay' style={{ backgroundColor: 'rgba(36, 36, 36, 0.8)' }}>

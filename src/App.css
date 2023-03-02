@@ -14,7 +14,6 @@ body {
 
 #home {
   text-align: center;
-  margin-top: 10%;
 }
 #home img {
   height: 100%;
@@ -36,16 +35,52 @@ body {
 }
 @media (max-width: 320px) {
   #home {
-    margin-top: 40%;
+    margin-top: 50%;
   }
   #home a h4 {
-    margin-top: 0.5em;
+    margin-top: 0.2em;
   }
   #home a p {
-    margin-top: -2.5em;
-    font-size: 0.74em;
+    margin-top: -2.8em;
+    font-size: 0.7em;
   }
 }
+@media (min-width: 320px) {
+  #home {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 360px) {
+  #home {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 378px) {
+  #home {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 425px) {
+  #home {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 768px) {
+  #home {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 900px) {
+  #home {
+    margin-top: 20%;
+  }
+}
+@media (min-width: 1440px) {
+  #home {
+    margin-top: 10%;
+  }
+}
+
 
 
 /*# sourceMappingURL=App.css.map */
