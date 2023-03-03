@@ -104,6 +104,11 @@ body {
 #SinaisHome .navbar a {
   color: white;
 }
+#SinaisHome .bodycard {
+  background-color: rgb(20, 20, 20);
+  border: white 1px solid;
+  border-radius: 5px;
+}
 
 #EscolasHome .navbar {
   background-color: rgb(20, 20, 20);

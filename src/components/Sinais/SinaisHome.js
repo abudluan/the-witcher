@@ -16,6 +16,12 @@ import {
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
+import igni from './img/igni.png';
+import aard from './img/aard.png'
+import yrden from './img/yrden.png';
+import axii from './img/axii.png';
+import quen from './img/quen.png';
+
 const SinaisHome = () => {
     return (
         <section id="SinaisHome">
@@ -34,9 +40,27 @@ const SinaisHome = () => {
                     <MDBCol size='md'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <MDBCardImage src={igni} fluid />
                                 <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+                                </a>
+                            </MDBRipple>
+                            <MDBCardBody className="bodycard">
+                                <MDBCardTitle><span className="Danger">Igni</span></MDBCardTitle>
+                                <MDBCardText>
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </MDBCardText>
+                                <MDBBtn href='#'>Button</MDBBtn>
+                            </MDBCardBody>
+                        </MDBCard>
+                    </MDBCol>
+
+                    <MDBCol size='md'>
+                        <MDBCard>
+                            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                                <MDBCardImage src={axii} fluid/>
+                                <a>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
                             <MDBCardBody>
@@ -48,29 +72,13 @@ const SinaisHome = () => {
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
+
                     <MDBCol size='md'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <MDBCardImage src={aard} fluid alt='...' />
                                 <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
-                                </a>
-                            </MDBRipple>
-                            <MDBCardBody>
-                                <MDBCardTitle>Card title</MDBCardTitle>
-                                <MDBCardText>
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                </MDBCardText>
-                                <MDBBtn href='#'>Button</MDBBtn>
-                            </MDBCardBody>
-                        </MDBCard>
-                    </MDBCol>
-                    <MDBCol size='md'>
-                        <MDBCard>
-                            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
                             <MDBCardBody>
@@ -90,9 +98,9 @@ const SinaisHome = () => {
                     <MDBCol md='4'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <MDBCardImage src={quen} fluid alt='...' />
                                 <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
                             <MDBCardBody>
@@ -104,12 +112,13 @@ const SinaisHome = () => {
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
+                    
                     <MDBCol md='4'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <MDBCardImage src={yrden} fluid alt='...' />
                                 <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
                             <MDBCardBody>
