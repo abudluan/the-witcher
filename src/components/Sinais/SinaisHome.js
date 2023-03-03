@@ -35,9 +35,9 @@ const SinaisHome = () => {
                 </MDBContainer>
             </MDBNavbar>
 
-            <MDBContainer className="my-5 text-center">
+            <MDBContainer className="cardSinais my-5 text-center">
                 <MDBRow>
-                    <MDBCol size='md'>
+                    <MDBCol size='md py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={igni} fluid />
@@ -45,17 +45,17 @@ const SinaisHome = () => {
                                     <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
-                            <MDBCardBody className="bodycard">
-                                <MDBCardTitle><span className="Danger">Igni</span></MDBCardTitle>
-                                <MDBCardText>
+                            <MDBCardBody className="cardIgni">
+                                <MDBCardTitle className="cardTitle">Igni</MDBCardTitle>
+                                <MDBCardText className="cardText">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </MDBCardText>
-                                <MDBBtn href='#'>Button</MDBBtn>
+                                <MDBBtn color='dark' className="btnCard" href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
 
-                    <MDBCol size='md'>
+                    <MDBCol size='md py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={axii} fluid/>
@@ -63,17 +63,17 @@ const SinaisHome = () => {
                                     <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
-                            <MDBCardBody>
-                                <MDBCardTitle>Card title</MDBCardTitle>
-                                <MDBCardText>
+                            <MDBCardBody className="cardAxii">
+                                <MDBCardTitle className="cardTitle">Axii</MDBCardTitle>
+                                <MDBCardText className="cardText">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </MDBCardText>
-                                <MDBBtn href='#'>Button</MDBBtn>
+                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
 
-                    <MDBCol size='md'>
+                    <MDBCol size='md py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={aard} fluid alt='...' />
@@ -81,12 +81,12 @@ const SinaisHome = () => {
                                     <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
-                            <MDBCardBody>
-                                <MDBCardTitle>Card title</MDBCardTitle>
-                                <MDBCardText>
+                            <MDBCardBody className="cardAard">
+                                <MDBCardTitle className="cardTitle">Aard</MDBCardTitle>
+                                <MDBCardText className="cardText">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </MDBCardText>
-                                <MDBBtn href='#'>Button</MDBBtn>
+                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -95,7 +95,7 @@ const SinaisHome = () => {
                 <MDBRow className="my-5 text-center">
                     <MDBCol md='2'>
                     </MDBCol>
-                    <MDBCol md='4'>
+                    <MDBCol md='4 py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={quen} fluid alt='...' />
@@ -103,17 +103,17 @@ const SinaisHome = () => {
                                     <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
-                            <MDBCardBody>
-                                <MDBCardTitle>Card title</MDBCardTitle>
-                                <MDBCardText>
+                            <MDBCardBody className="cardQuen">
+                                <MDBCardTitle className="cardTitle">Quen</MDBCardTitle>
+                                <MDBCardText className="cardText">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </MDBCardText>
-                                <MDBBtn href='#'>Button</MDBBtn>
+                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
                     
-                    <MDBCol md='4'>
+                    <MDBCol md='4 py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={yrden} fluid alt='...' />
@@ -121,12 +121,12 @@ const SinaisHome = () => {
                                     <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
                             </MDBRipple>
-                            <MDBCardBody>
-                                <MDBCardTitle>Card title</MDBCardTitle>
-                                <MDBCardText>
+                            <MDBCardBody className="cardYrden">
+                                <MDBCardTitle className="cardTitle">Yrden</MDBCardTitle>
+                                <MDBCardText className="cardText">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
                                 </MDBCardText>
-                                <MDBBtn href='#'>Button</MDBBtn>
+                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>

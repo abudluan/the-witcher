@@ -104,10 +104,43 @@ body {
 #SinaisHome .navbar a {
   color: white;
 }
-#SinaisHome .bodycard {
-  background-color: rgb(20, 20, 20);
+#SinaisHome .cardSinais .cardIgni {
+  background-color: #FF0302;
+  color: white;
   border: white 1px solid;
   border-radius: 5px;
+}
+#SinaisHome .cardSinais .cardAxii {
+  background-color: #00864c;
+  color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+}
+#SinaisHome .cardSinais .cardAard {
+  background-color: #0C93FE;
+  color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+}
+#SinaisHome .cardSinais .cardQuen {
+  background-color: #b49900;
+  color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+}
+#SinaisHome .cardSinais .cardYrden {
+  background-color: #8905C6;
+  color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+}
+#SinaisHome .cardSinais .cardTitle {
+  font-size: 1.5em;
+}
+#SinaisHome .cardSinais .cardText {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.1em;
 }
 
 #EscolasHome .navbar {
@@ -117,6 +150,6 @@ body {
   color: white;
 }
 
-
+/*# sourceMappingURL=App.scss.map */
 
 /*# sourceMappingURL=App.css.map */

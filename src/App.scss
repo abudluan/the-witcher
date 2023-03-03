@@ -175,12 +175,57 @@ body {
   }
 }
 
+  .cardSinais{
 
-  .bodycard{
-    background-color: rgb(20, 20, 20);
-    border: white 1px solid;
-    border-radius: 5px;
+    .cardIgni{
+      background-color: #FF0302;
+      color: white;
+      border: white 1px solid;
+      border-radius: 5px;
+    }
+
+    .cardAxii{
+      background-color: #00864c;
+      color: white;
+      border: white 1px solid;
+      border-radius: 5px;
+    }
+
+    .cardAard{
+      background-color: #0C93FE;
+      color: white;
+      border: white 1px solid;
+      border-radius: 5px;
+    }
+    
+    .cardQuen{
+      background-color: #b49900;
+      color: white;
+      border: white 1px solid;
+      border-radius: 5px;
+    }
+
+    .cardYrden{
+      background-color: #8905C6;
+      color: white;
+      border: white 1px solid;
+      border-radius: 5px;
+    }
+
+    .cardTitle{
+      
+      font-size: 1.5em;
+    }
+
+    .cardText{
+      text-align: justify;
+      text-justify: inter-word;
+      font-size: 1.1em;
+    }
+
   }
+
+  
   
 
 }
