@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' element={<Home />}/>
+        <Route exact path='/Home' element={<Home />}/>
         <Route exact path='/SinaisHome' element={<SinaisHome />} />
         <Route exact path='/EscolasHome' element={<EscolasHomes />} />
       </Routes>

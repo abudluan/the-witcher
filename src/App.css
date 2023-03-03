@@ -98,6 +98,20 @@ body {
   }
 }
 
+#SinaisHome .navbar {
+  background-color: rgb(20, 20, 20);
+}
+#SinaisHome .navbar a {
+  color: white;
+}
+
+#EscolasHome .navbar {
+  background-color: rgb(20, 20, 20);
+}
+#EscolasHome .navbar a {
+  color: white;
+}
+
 
 
 /*# sourceMappingURL=App.css.map */
