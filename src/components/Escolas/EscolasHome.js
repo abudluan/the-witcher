@@ -9,7 +9,7 @@ const EscolasHomes = () =>{
             <MDBNavbar className="navbar">
                 <MDBContainer fluid>
                     <MDBNavbarBrand className="mx-2">
-                        <Link to="/Home">
+                        <Link to="/">
                             <MDBIcon fas icon="angle-left" className="mx-2" />Voltar
                         </Link>
                     </MDBNavbarBrand>
