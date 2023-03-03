@@ -21,7 +21,7 @@ const Home = () => {
                             </div>
                         </Link>
                     </MDBCol>
-                    <MDBCol size='md' className='bg-image hover-overlay'>
+                    <MDBCol size='md py-2' className='bg-image hover-overlay'>
                         <img src={sinaisLogo} className='img-fluid rounded' />
                         <Link to="/SinaisHome">
                             <div className='mask overlay' style={{ backgroundColor: 'rgba(36, 36, 36, 0.8)' }}>

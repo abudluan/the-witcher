@@ -24,7 +24,7 @@ body {
   text-decoration: none;
 }
 #home a h4 {
-  margin-top: 2em;
+  margin-top: 1em;
   text-align: center;
 }
 #home a p {
@@ -35,66 +35,19 @@ body {
   padding-right: 1em;
 }
 @media (max-width: 320px) {
-  #home a h4 {
-    margin-top: 0.2em;
+  #home {
+    margin-top: 20%;
   }
-  #home a p {
-    margin-top: -2.8em;
-    font-size: 0.7em;
-  }
-}
-@media (min-width: 320px) {
-  #home a h4 {
-    margin-top: 0.2em;
-  }
-  #home a p {
-    margin-top: -2.3em;
-    font-size: 0.8em;
+  #home img {
+    border: solid white 1px;
   }
 }
-@media (min-width: 360px) {
-  #home a h4 {
-    margin-top: 0.4em;
+@media (min-width: 320px) and (max-width: 768px) {
+  #home {
+    margin-top: 10%;
   }
-  #home a p {
-    margin-top: -2em;
-    font-size: 0.9em;
-  }
-}
-@media (min-width: 378px) {
-  #home a h4 {
-    margin-top: 0.4em;
-  }
-  #home a p {
-    margin-top: -2em;
-    font-size: 1em;
-  }
-}
-@media (min-width: 425px) {
-  #home a h4 {
-    margin-top: 0.4em;
-  }
-  #home a p {
-    margin-top: -1.5em;
-    font-size: 1em;
-  }
-}
-@media (min-width: 768px) {
-  #home a h4 {
-    margin-top: 0.4em;
-  }
-  #home a p {
-    margin-top: -2em;
-    font-size: 0.9em;
-  }
-}
-@media (min-width: 1440px) {
-  #home a h4 {
-    margin-top: 1.5em;
-  }
-  #home a p {
-    margin-top: 0em;
-    font-size: 1.2em;
+  #home img {
+    border: solid white 1px;
   }
 }
 
