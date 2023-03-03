@@ -48,7 +48,7 @@ const SinaisHome = () => {
                             <MDBCardBody className="cardIgni">
                                 <MDBCardTitle className="cardTitle">Igni</MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Incendeia objetos e adversários
                                 </MDBCardText>
                                 <MDBBtn color='dark' className="btnCard" href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
@@ -58,7 +58,7 @@ const SinaisHome = () => {
                     <MDBCol size='md py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                                <MDBCardImage src={axii} fluid/>
+                                <MDBCardImage src={axii} fluid />
                                 <a>
                                     <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
                                 </a>
@@ -66,7 +66,7 @@ const SinaisHome = () => {
                             <MDBCardBody className="cardAxii">
                                 <MDBCardTitle className="cardTitle">Axii</MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Controle da mente
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
@@ -84,7 +84,7 @@ const SinaisHome = () => {
                             <MDBCardBody className="cardAard">
                                 <MDBCardTitle className="cardTitle">Aard</MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Onda telecinética. 
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
@@ -106,13 +106,13 @@ const SinaisHome = () => {
                             <MDBCardBody className="cardQuen">
                                 <MDBCardTitle className="cardTitle">Quen</MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Protege contra danos físicos
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
-                    
+
                     <MDBCol md='4 py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
@@ -124,7 +124,7 @@ const SinaisHome = () => {
                             <MDBCardBody className="cardYrden">
                                 <MDBCardTitle className="cardTitle">Yrden</MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Armadilha que imobiliza os inimigos
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
