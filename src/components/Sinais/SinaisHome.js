@@ -11,7 +11,8 @@ import {
     MDBCardTitle,
     MDBCardText,
     MDBCardImage,
-    MDBBtn
+    MDBBtn,
+    MDBRipple
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
@@ -32,7 +33,12 @@ const SinaisHome = () => {
                 <MDBRow>
                     <MDBCol size='md'>
                         <MDBCard>
-                            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+                            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <a>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                </a>
+                            </MDBRipple>
                             <MDBCardBody>
                                 <MDBCardTitle>Card title</MDBCardTitle>
                                 <MDBCardText>
@@ -44,7 +50,12 @@ const SinaisHome = () => {
                     </MDBCol>
                     <MDBCol size='md'>
                         <MDBCard>
-                            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+                            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <a>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                </a>
+                            </MDBRipple>
                             <MDBCardBody>
                                 <MDBCardTitle>Card title</MDBCardTitle>
                                 <MDBCardText>
@@ -56,7 +67,12 @@ const SinaisHome = () => {
                     </MDBCol>
                     <MDBCol size='md'>
                         <MDBCard>
-                            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+                            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <a>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                </a>
+                            </MDBRipple>
                             <MDBCardBody>
                                 <MDBCardTitle>Card title</MDBCardTitle>
                                 <MDBCardText>
@@ -69,11 +85,16 @@ const SinaisHome = () => {
                 </MDBRow>
 
                 <MDBRow className="my-5 text-center">
-                <MDBCol md='2'>
+                    <MDBCol md='2'>
                     </MDBCol>
                     <MDBCol md='4'>
-                    <MDBCard>
-                            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+                        <MDBCard>
+                            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <a>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                </a>
+                            </MDBRipple>
                             <MDBCardBody>
                                 <MDBCardTitle>Card title</MDBCardTitle>
                                 <MDBCardText>
@@ -84,8 +105,13 @@ const SinaisHome = () => {
                         </MDBCard>
                     </MDBCol>
                     <MDBCol md='4'>
-                    <MDBCard>
-                            <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+                        <MDBCard>
+                            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                                <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
+                                <a>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                                </a>
+                            </MDBRipple>
                             <MDBCardBody>
                                 <MDBCardTitle>Card title</MDBCardTitle>
                                 <MDBCardText>
