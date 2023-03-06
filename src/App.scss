@@ -73,30 +73,13 @@ body {
   .cardSinais{
     
 
-    .cardIgni{
-      background-color: #FF0302;
+    .cardIgni, .cardAxii, .cardAard, .cardQuen, .cardYrden{
+      background-color: rgb(73, 73, 73);
+      color: white;
       border-radius: 3px;
     }
 
-    .cardAxii{
-      background-color: #00864c;
-      border-radius: 3px;
-    }
-
-    .cardAard{
-      background-color: #0C93FE;
-      border-radius: 3px;
-    }
     
-    .cardQuen{
-      background-color: #e7c70f;
-      border-radius: 3px;
-    }
-
-    .cardYrden{
-      background-color: #8905C6;
-      border-radius: 3px;
-    }
 
     .cardTitle{
       

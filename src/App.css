@@ -57,24 +57,9 @@ body {
 #SinaisHome .navbar a {
   color: white;
 }
-#SinaisHome .cardSinais .cardIgni {
-  background-color: #FF0302;
-  border-radius: 3px;
-}
-#SinaisHome .cardSinais .cardAxii {
-  background-color: #00864c;
-  border-radius: 3px;
-}
-#SinaisHome .cardSinais .cardAard {
-  background-color: #0C93FE;
-  border-radius: 3px;
-}
-#SinaisHome .cardSinais .cardQuen {
-  background-color: #e7c70f;
-  border-radius: 3px;
-}
-#SinaisHome .cardSinais .cardYrden {
-  background-color: #8905C6;
+#SinaisHome .cardSinais .cardIgni, #SinaisHome .cardSinais .cardAxii, #SinaisHome .cardSinais .cardAard, #SinaisHome .cardSinais .cardQuen, #SinaisHome .cardSinais .cardYrden {
+  background-color: rgb(73, 73, 73);
+  color: white;
   border-radius: 3px;
 }
 #SinaisHome .cardSinais .cardTitle {
