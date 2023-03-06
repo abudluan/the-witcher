@@ -59,33 +59,23 @@ body {
 }
 #SinaisHome .cardSinais .cardIgni {
   background-color: #FF0302;
-  color: white;
-  border: white 1px solid;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 #SinaisHome .cardSinais .cardAxii {
   background-color: #00864c;
-  color: white;
-  border: white 1px solid;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 #SinaisHome .cardSinais .cardAard {
   background-color: #0C93FE;
-  color: white;
-  border: white 1px solid;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 #SinaisHome .cardSinais .cardQuen {
-  background-color: #b49900;
-  color: white;
-  border: white 1px solid;
-  border-radius: 5px;
+  background-color: #e7c70f;
+  border-radius: 3px;
 }
 #SinaisHome .cardSinais .cardYrden {
   background-color: #8905C6;
-  color: white;
-  border: white 1px solid;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 #SinaisHome .cardSinais .cardTitle {
   font-size: 1.5em;
@@ -94,6 +84,9 @@ body {
   text-align: center;
   font-size: 1.1em;
 }
+#SinaisHome img, #SinaisHome .bg-image {
+  background-color: rgb(26, 26, 26);
+}
 
 #EscolasHome .navbar {
   background-color: rgb(20, 20, 20);
@@ -101,7 +94,14 @@ body {
 #EscolasHome .navbar a {
   color: white;
 }
+#EscolasHome .cardLobo, #EscolasHome .cardGato, #EscolasHome .cardGrifo, #EscolasHome .cardUrso, #EscolasHome .cardVibora {
+  background-color: rgb(73, 73, 73);
+  color: white;
+}
+#EscolasHome img, #EscolasHome .bg-image {
+  background-color: rgb(26, 26, 26);
+}
 
-/*# sourceMappingURL=App.scss.map */
+
 
 /*# sourceMappingURL=App.css.map */
