@@ -46,9 +46,9 @@ const SinaisHome = () => {
                                 </a>
                             </MDBRipple>
                             <MDBCardBody className="cardIgni">
-                                <MDBCardTitle className="cardTitle">Igni</MDBCardTitle>
+                            <MDBCardTitle className="cardTitle"><br/><h3>Igni</h3></MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Incendeia objetos e adversários
+                                    <br/>
                                 </MDBCardText>
                                 <MDBBtn color='dark' className="btnCard" href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
@@ -64,9 +64,9 @@ const SinaisHome = () => {
                                 </a>
                             </MDBRipple>
                             <MDBCardBody className="cardAxii">
-                                <MDBCardTitle className="cardTitle">Axii</MDBCardTitle>
+                            <MDBCardTitle className="cardTitle"><br/><h3>Axii</h3></MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Controle da mente
+                                    <br/>
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
@@ -82,9 +82,9 @@ const SinaisHome = () => {
                                 </a>
                             </MDBRipple>
                             <MDBCardBody className="cardAard">
-                                <MDBCardTitle className="cardTitle">Aard</MDBCardTitle>
+                            <MDBCardTitle className="cardTitle"><br/><h3>Aard</h3></MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Onda telecinética. 
+                                    <br/>
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
@@ -104,9 +104,9 @@ const SinaisHome = () => {
                                 </a>
                             </MDBRipple>
                             <MDBCardBody className="cardQuen">
-                                <MDBCardTitle className="cardTitle">Quen</MDBCardTitle>
+                            <MDBCardTitle className="cardTitle"><br/><h3>Quen</h3></MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Protege contra danos físicos
+                                    <br/>
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
@@ -122,9 +122,9 @@ const SinaisHome = () => {
                                 </a>
                             </MDBRipple>
                             <MDBCardBody className="cardYrden">
-                                <MDBCardTitle className="cardTitle">Yrden</MDBCardTitle>
+                            <MDBCardTitle className="cardTitle"><br/><h3>Yrden</h3></MDBCardTitle>
                                 <MDBCardText className="cardText">
-                                    Armadilha que imobiliza os inimigos
+                                    <br/>
                                 </MDBCardText>
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                             </MDBCardBody>
