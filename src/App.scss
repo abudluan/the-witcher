@@ -16,7 +16,9 @@ body {
 
 #home {
 
-  margin-top: 10%;
+  position: relative;
+  transform: translate(0%,50%);
+
 
    img{
     height: 100%;
@@ -43,15 +45,15 @@ body {
 
    @media (max-width:320px) {
 
-      margin-top: 20%;
+      transform: translate(0%,30%);
       img{
         border: solid white 1px;
       }
    }
 
-   @media (min-width:320px) and (max-width:768px) {
+   @media (min-width:320px) and (max-width:767px) {
 
-    margin-top: 10%;
+    transform: translate(0%,30%);
     img{
       border: solid white 1px;
     }
@@ -79,8 +81,6 @@ body {
       
     }
 
-    
-
     .cardTitle{
       
       font-size: 1.5em;
@@ -96,7 +96,6 @@ body {
   img, .bg-image {
     background-color: rgb(26, 26, 26);
   }
-  
   
 
 }
@@ -119,7 +118,8 @@ body {
     background-color: rgb(26, 26, 26);
   }
 
-
 }
+
+
 
 /*# sourceMappingURL=App.scss.map */

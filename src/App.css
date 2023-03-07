@@ -14,7 +14,8 @@ body {
 }
 
 #home {
-  margin-top: 10%;
+  position: relative;
+  transform: translate(0%, 50%);
 }
 #home img {
   height: 100%;
@@ -36,15 +37,15 @@ body {
 }
 @media (max-width: 320px) {
   #home {
-    margin-top: 20%;
+    transform: translate(0%, 30%);
   }
   #home img {
     border: solid white 1px;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   #home {
-    margin-top: 10%;
+    transform: translate(0%, 30%);
   }
   #home img {
     border: solid white 1px;

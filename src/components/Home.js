@@ -9,7 +9,7 @@ import sinaisLogo from './Sinais/img/sinais-logo.webp';
 const Home = () => {
     return (
         <section id='home'>
-            <MDBContainer>
+            <MDBContainer className="d-flex align-items-center justify-content-center">
                 <MDBRow>
                     <MDBCol size='md' className='bg-image hover-overlay'>
                         <img src={escolasLogo} className='img-fluid rounded' />
