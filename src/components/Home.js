@@ -3,8 +3,8 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
 
-import escolasLogo from './Escolas/img/escolas-logo.webp';
-import sinaisLogo from './Sinais/img/sinais-logo.webp';
+import escolasLogo from './imagens/Escolas/escolas-logo.webp';
+import sinaisLogo from './imagens/Sinais/sinais-logo.webp';
 
 const Home = () => {
     return (

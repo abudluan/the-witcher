@@ -16,11 +16,11 @@ import {
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
-import escolaLobo from './img/escolaLobo.png';
-import escolaGato from './img/escolaGato.png';
-import escolaGrifo from './img/escolaGrifo.png';
-import escolaUrso from './img/escolaUrso.png';
-import escolaVibora from './img/escolaVibora.png';
+import escolaLobo from '../imagens/Escolas/escolaLobo.png';
+import escolaGato from '../imagens/Escolas/escolaGato.png';
+import escolaGrifo from '../imagens/Escolas/escolaGrifo.png';
+import escolaUrso from '../imagens/Escolas/escolaUrso.png';
+import escolaVibora from '../imagens/Escolas/escolaVibora.png';
 
 const EscolasHomes = () => {
     return (

@@ -16,11 +16,11 @@ import {
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
-import igni from './img/igni.png';
-import aard from './img/aard.png'
-import yrden from './img/yrden.png';
-import axii from './img/axii.png';
-import quen from './img/quen.png';
+import igni from '../imagens/Sinais/igni.png';
+import aard from '../imagens/Sinais/aard.png'
+import yrden from '../imagens/Sinais/yrden.png';
+import axii from '../imagens/Sinais/axii.png';
+import quen from '../imagens/Sinais/quen.png';
 
 const SinaisHome = () => {
     return (
