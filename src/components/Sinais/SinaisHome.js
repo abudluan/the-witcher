@@ -15,6 +15,7 @@ import {
     MDBRipple
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
+import './Sinais.scss';
 
 import igni from '../imagens/Sinais/igni.png';
 import aard from '../imagens/Sinais/aard.png'

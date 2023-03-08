@@ -15,6 +15,7 @@ import {
     MDBRipple
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
+import './Escolas.scss';
 
 import escolaLobo from '../imagens/Escolas/escolaLobo.png';
 import escolaGato from '../imagens/Escolas/escolaGato.png';

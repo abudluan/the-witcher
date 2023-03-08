@@ -1,0 +1,36 @@
+#SinaisHome{
+
+    .navbar{
+      background-color: rgb(20, 20, 20);
+      a{
+        color: white;
+    }
+  }
+  
+    .cardSinais{
+      
+  
+      .cardIgni, .cardAxii, .cardAard, .cardQuen, .cardYrden{
+        background-color: rgb(73, 73, 73);
+        color: white;
+        
+      }
+  
+      .cardTitle{
+        
+        font-size: 1.5em;
+      }
+  
+      .cardText{
+        text-align: center;
+        font-size: 1.1em;
+      }
+  
+    }
+  
+    img, .bg-image {
+      background-color: rgb(26, 26, 26);
+    }
+    
+  
+  }
