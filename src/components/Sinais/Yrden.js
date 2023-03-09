@@ -48,8 +48,8 @@ const Yrden = () =>{
                             <MDBCardBody className="cardbody">
                                 <MDBCardTitle><span className="text-yrden"><h1>Yrden</h1></span></MDBCardTitle>
                                 <MDBCardText>
-                                Quando inscrito em uma superfície sólida, Yrden impede que os monstros se aproximem, assustando-os. Se um ser hostil entra na área afetada pelo sinal, ele é visivelmente desacelerado e forças não-corpóreas tornam-se corpóreas.<br/><br/>
-                                <q><em>Cerrou a laje somente quando ouviu o urro da estrige vindo de cima. Deitou-se ao lado do mumificado corpo de Adda e riscou o Sinal de Yrden na parte interna da lápide. Colocou sobre o peito a espada e uma pequena ampulheta com areia fosforescente. Cruzou os braços. Não ouvia mais os horripilantes gritos da besta retumbando pelo castelo. Aliás, parou de ouvir qualquer coisa, pois o cólquico e a celidônia começaram a fazer efeito.</em></q><br/>
+                                Quando inscrito em uma superfície sólida, <span className="text-yrden">Yrden</span> impede que os monstros se aproximem, assustando-os. Se um ser hostil entra na área afetada pelo sinal, ele é visivelmente desacelerado e forças não-corpóreas tornam-se corpóreas.<br/><br/>
+                                <q><em>Cerrou a laje somente quando ouviu o urro da estrige vindo de cima. Deitou-se ao lado do mumificado corpo de Adda e riscou o Sinal de <span className="text-yrden">Yrden</span> na parte interna da lápide. Colocou sobre o peito a espada e uma pequena ampulheta com areia fosforescente. Cruzou os braços. Não ouvia mais os horripilantes gritos da besta retumbando pelo castelo. Aliás, parou de ouvir qualquer coisa, pois o cólquico e a celidônia começaram a fazer efeito.</em></q><br/>
                                 — O Último Desejo, pg 27
                                 </MDBCardText>
                             </MDBCardBody>

@@ -48,7 +48,7 @@ const Axii = () => {
                             <MDBCardBody className="cardbody">
                                 <MDBCardTitle><span className="text-success"><h1>Axii</h1></span></MDBCardTitle>
                                 <MDBCardText>
-                                    Axii é um simples sinal mágico usado por bruxos. É uma onda mental que desencadeia um feitiço que faz com que um inimigo lute ao lado de um bruxo. O efeito pode se desgastar com o tempo ou ser quebrado através de danos. <br/><br/>
+                                    <span className="text-success">Axii</span> é um simples sinal mágico usado por bruxos. É uma onda mental que desencadeia um feitiço que faz com que um inimigo lute ao lado de um bruxo. O efeito pode se desgastar com o tempo ou ser quebrado através de danos. <br/><br/>
                                     <q><em>A égua relinchou com pesar, erguendo a cabeça. Geralt, com os olhos ainda voltados para a floresta, instintivamente acalmou-a com o Sinal. Levando-a pelas rédeas, encaminhou-se devagar para o muro, afundando até a cintura no meio da folhagem de bardanas.</em></q><br/>
                                     — O Último Desejo - Pg 36
                                 </MDBCardText>
