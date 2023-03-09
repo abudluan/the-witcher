@@ -1,0 +1,35 @@
+#yrden{
+
+    .navbar{
+        background-color: rgb(20, 20, 20);
+        a{
+            color: white;
+            
+        }
+    }
+    .cardbody{
+        background-color: rgb(73, 73, 73);
+        color: white;
+        text-align: justify;
+
+        .text-yrden{
+            color: #c342ff;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .SinaisGroup{
+        border-top: 1px solid white;
+        background-color: rgb(73, 73, 73);
+        text-align: center;
+    }
+}

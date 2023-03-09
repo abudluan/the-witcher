@@ -136,7 +136,9 @@ const SinaisHome = () => {
                                 <MDBCardText className="cardText">
                                     <br />
                                 </MDBCardText>
+                                <Link to="/Yrden">
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                </Link>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
