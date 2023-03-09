@@ -6,15 +6,21 @@
         color: white;
     }
   }
-  
-    .cardLobo, .cardGato, .cardGrifo, .cardUrso, .cardVibora{
-      background-color: rgb(73, 73, 73);
-      color: white;
-      
+
+    .cardSinais{
+
+      width: 70%;
+
+      .cardLobo, .cardGato, .cardGrifo, .cardUrso, .cardVibora{
+        background-color: rgb(73, 73, 73);
+        color: white;
+        
+      }
+    
+      img, .bg-image{
+        background-color: rgb(26, 26, 26);
+      }
     }
-  
-    img, .bg-image{
-      background-color: rgb(26, 26, 26);
-    }
+    
   
   }
