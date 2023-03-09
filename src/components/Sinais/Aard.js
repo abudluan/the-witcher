@@ -1,0 +1,70 @@
+import React from "react";
+import {
+    MDBContainer,
+    MDBNavbar,
+    MDBNavbarBrand,
+    MDBIcon,
+    MDBCard,
+    MDBCardTitle,
+    MDBCardText,
+    MDBCardBody,
+    MDBCardImage,
+    MDBRow,
+    MDBCol,
+} from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
+
+import './Aard.scss';
+
+import SinalCapa from '../imagens/Sinais/aard/aard_capa.webp';
+import Aard1 from '../imagens/Sinais/aard/aard_simb1.png';
+import Aard2 from '../imagens/Sinais/aard/aard_simb2.png';
+import Aard3 from '../imagens/Sinais/aard/aard_simb3.png';
+
+const Aard = () => {
+    return (
+        <section id="aard">
+            <MDBNavbar className="navbar">
+                <MDBContainer fluid>
+                    <MDBNavbarBrand className="mx-2">
+                        <Link to="/SinaisHome">
+                            <MDBIcon fas icon="angle-left" className="mx-2" />Voltar
+                        </Link>
+                    </MDBNavbarBrand>
+                </MDBContainer>
+            </MDBNavbar>
+
+
+
+            <MDBContainer>
+                <MDBRow>
+
+                    <MDBCol size='md'>
+                    </MDBCol>
+
+                    <MDBCol size='md my-5'>
+                        <MDBCard>
+                            <MDBCardImage position='top' alt='...' src={SinalCapa} />
+                            <MDBCardBody className="cardbody">
+                                <MDBCardTitle><span className="text-primary"><h1>Aard</h1></span></MDBCardTitle>
+                                <MDBCardText>
+                                    Aard é um simples sinal mágico usado por bruxos. Trata-se de um um impulso telecinético que pode atordoar, empurrar, derrubar ou desarmar os adversários, bem como remover obstáculos e outros objetos.<br /><br />
+                                    <q><em>O chamado Sinal de Aard, Ciri, é um encanto extremamente simples do grupo de feitiços psicocinéticos, que consiste em empurrar a energia em determinada direção. A força do empuxo depende da concentração mental de quem o lança e da quantidade de força a ele aplicada. Os bruxos adotaram esse encanto porque ele não requer o conhecimento de uma fórmula mágica; bastam concentração e um gesto. Foi por isso que o denominaram de “Sinal”. Já de onde tiraram o nome “Aard” eu não sei. Talvez da Língua Antiga, em que a palavra “ard” significa “cimo”, “superior” ou “mais alto de todos”. Se sim, então o nome é muito enganoso, pois seria difícil encontrar um feitiço psicocinético mais fácil. É óbvio que não vamos perder tempo e energia numa coisa tão primitiva quanto um sinal de bruxos. O que vamos estudar é a psicocinética em si. Vamos treiná-la... Ali, naquele cesto debaixo da macieira. Concentre-se.</em></q><br />
+                                    — Trecho de O Sangue dos Elfos
+                                </MDBCardText>
+                            </MDBCardBody>
+                            <MDBCardText className="SinaisGroup"><img src={Aard1} /> <img src={Aard2} /> <img src={Aard3} /></MDBCardText>
+                        </MDBCard>
+                    </MDBCol>
+
+                    <MDBCol size='md'>
+                    </MDBCol>
+
+                </MDBRow>
+            </MDBContainer>
+
+        </section>
+    );
+}
+
+export default Aard;

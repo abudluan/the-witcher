@@ -9,6 +9,7 @@ import Home from './components/Home';
 import SinaisHome from './components/Sinais/SinaisHome';
 import Igni from './components/Sinais/Igni';
 import Axii from './components/Sinais/Axii';
+import Aard from './components/Sinais/Aard';
 
 import EscolasHomes from './components/Escolas/EscolasHome';
 
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/SinaisHome' element={<SinaisHome />} />
         <Route exact path='/Igni' element={<Igni />} />
         <Route exact path='/Axii' element={<Axii />} />
+        <Route exact path='/Aard' element={<Aard />} />
         <Route exact path='/EscolasHome' element={<EscolasHomes />} />
       </Routes>
     </Router>
