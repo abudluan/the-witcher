@@ -14,6 +14,7 @@ import Quen from './components/Sinais/Quen';
 import Yrden from './components/Sinais/Yrden';
 
 import EscolasHomes from './components/Escolas/EscolasHome';
+import Lobo from './components/Escolas/Lobo';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route exact path='/Quen' element={<Quen />} />
         <Route exact path='/Yrden' element={<Yrden />} />
         <Route exact path='/EscolasHome' element={<EscolasHomes />} />
+        <Route exact path='/Lobo' element={<Lobo />} />
       </Routes>
     </Router>
     

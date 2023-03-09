@@ -51,7 +51,9 @@ const EscolasHomes = () => {
                                 <MDBCardText className="cardText">
                                     <br/>
                                 </MDBCardText>
+                                <Link to="/Lobo">
                                 <MDBBtn color='dark' className="btnCard" href='#'>Ver mais</MDBBtn>
+                                </Link>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
