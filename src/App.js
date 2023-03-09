@@ -5,7 +5,11 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import './App.scss';
 
 import Home from './components/Home';
+
 import SinaisHome from './components/Sinais/SinaisHome';
+import Igni from './components/Sinais/Igni';
+import Axii from './components/Sinais/Axii';
+
 import EscolasHomes from './components/Escolas/EscolasHome';
 
 function App() {
@@ -14,6 +18,8 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />}/>
         <Route exact path='/SinaisHome' element={<SinaisHome />} />
+        <Route exact path='/Igni' element={<Igni />} />
+        <Route exact path='/Axii' element={<Axii />} />
         <Route exact path='/EscolasHome' element={<EscolasHomes />} />
       </Routes>
     </Router>

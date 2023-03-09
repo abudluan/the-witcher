@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
+
 import './Home.scss';
 
 import escolasLogo from './imagens/Escolas/escolas-logo.webp';
