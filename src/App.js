@@ -6,6 +6,8 @@ import './App.scss';
 
 import Home from './components/Home';
 
+import ScrollTop from './components/ScrollTop';
+
 import SinaisHome from './components/Sinais/SinaisHome';
 import Igni from './components/Sinais/Igni';
 import Axii from './components/Sinais/Axii';
@@ -19,6 +21,7 @@ import Lobo from './components/Escolas/Lobo';
 function App() {
   return (
     <Router>
+      <ScrollTop />
       <Routes>
         <Route exact path='/' element={<Home />}/>
         <Route exact path='/SinaisHome' element={<SinaisHome />} />
