@@ -1,0 +1,58 @@
+#vibora{
+
+    .navbar{
+        background-color: rgb(20, 20, 20);
+        a{
+            color: white;
+            
+        }
+    }
+
+    .cardEscola{
+
+        img{
+            background-color: rgb(15, 15, 15);
+        }
+
+        .cardbody{
+            background-color: rgb(73, 73, 73);
+            color: white;
+            text-align: justify;
+    
+            h2{
+                text-align: center;
+                margin-bottom: 0.5em;
+            }
+    
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    
+        .cardlist{
+
+            .cardname{
+                background-color: rgb(24, 24, 24);
+                color: white;
+                border-radius: 0em;
+                border:  1px solid rgb(104, 104, 104);
+                width: 55%;
+                text-align: center;
+                
+            }
+            
+            .carditem{
+                background-color: rgb(44, 44, 44);
+                color: white;
+                border-radius: 0em;
+                border:  1px solid rgb(104, 104, 104);
+                width: 100%;
+                text-align: center;
+                
+            }
+        }
+    }
+
+    
+}

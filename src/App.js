@@ -20,7 +20,7 @@ import Lobo from './components/Escolas/Lobo';
 import Gato from './components/Escolas/Gato';
 import Grifo from './components/Escolas/Grifo';
 import Urso from './components/Escolas/Urso';
-
+import Vibora from './components/Escolas/Vibora';
 
 function App() {
   return (
@@ -39,6 +39,7 @@ function App() {
         <Route exact path='/Gato' element={<Gato />} />
         <Route exact path='/Grifo' element={<Grifo />} />
         <Route exact path='/Urso' element={<Urso />} />
+        <Route exact path='/Vibora' element={<Vibora />} />
       </Routes>
     </Router>
     
