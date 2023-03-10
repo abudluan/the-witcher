@@ -17,6 +17,7 @@ import Yrden from './components/Sinais/Yrden';
 
 import EscolasHomes from './components/Escolas/EscolasHome';
 import Lobo from './components/Escolas/Lobo';
+import Gato from './components/Escolas/Gato';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route exact path='/Yrden' element={<Yrden />} />
         <Route exact path='/EscolasHome' element={<EscolasHomes />} />
         <Route exact path='/Lobo' element={<Lobo />} />
+        <Route exact path='/Gato' element={<Gato />} />
       </Routes>
     </Router>
     

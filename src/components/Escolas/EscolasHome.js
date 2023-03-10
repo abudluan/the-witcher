@@ -71,7 +71,9 @@ const EscolasHomes = () => {
                                 <MDBCardText className="cardText">
                                     <br/>
                                 </MDBCardText>
+                                <Link to="/Gato">
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                </Link>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -89,7 +91,9 @@ const EscolasHomes = () => {
                                 <MDBCardText className="cardText">
                                     <br/>
                                 </MDBCardText>
+                                <Link to="/Grifo">
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                </Link>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -111,7 +115,9 @@ const EscolasHomes = () => {
                                 <MDBCardText className="cardText">
                                     <br/>
                                 </MDBCardText>
+                                <Link to="/Urso">
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                </Link>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
@@ -125,11 +131,13 @@ const EscolasHomes = () => {
                                 </a>
                             </MDBRipple>
                             <MDBCardBody className="cardVibora">
-                            <MDBCardTitle className="cardTitle"><br/><h3>Escola do Vibora</h3></MDBCardTitle>
+                            <MDBCardTitle className="cardTitle"><br/><h3>Escola do Víbora</h3></MDBCardTitle>
                                 <MDBCardText className="cardText">
                                     <br/>
                                 </MDBCardText>
+                                <Link to="/Vibora">
                                 <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                </Link>
                             </MDBCardBody>
                         </MDBCard>
                     </MDBCol>
