@@ -52,16 +52,24 @@ const Gato = () => {
                                 </MDBCardText>
                             </MDBCardBody>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem className="cardname">Nome</MDBListGroupItem>
-                                <MDBListGroupItem className="carditem">Escola do Gato</MDBListGroupItem>
+                                <MDBListGroupItem  className="cardname">Nome</MDBListGroupItem>
+                                <MDBListGroupItem  className="carditem">Escola do Gato</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem className="cardname">Líder /<br/>Fundador</MDBListGroupItem>
-                                <MDBListGroupItem className="carditem">Gezras de Leyda</MDBListGroupItem>
+                                <MDBListGroupItem  className="cardname">Líder</MDBListGroupItem>
+                                <MDBListGroupItem  className="carditem">Gezras de Leyda</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem className="cardname">Local</MDBListGroupItem>
-                                <MDBListGroupItem className="carditem">Castelo de Stygga</MDBListGroupItem>
+                                <MDBListGroupItem  className="cardname">Fundador</MDBListGroupItem>
+                                <MDBListGroupItem  className="carditem">Gezras de Leyda</MDBListGroupItem>
+                            </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem  className="cardname">Local</MDBListGroupItem>
+                                <MDBListGroupItem  className="carditem">Castelo de Stygga</MDBListGroupItem>
+                            </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem  className="cardname">Status</MDBListGroupItem>
+                                <MDBListGroupItem  className="carditem">Ativa</MDBListGroupItem>
                             </MDBListGroup>
 
                         </MDBCard>

@@ -31,14 +31,15 @@
         }
     
         .cardlist{
-    
+
             .cardname{
                 background-color: rgb(24, 24, 24);
                 color: white;
                 border-radius: 0em;
                 border:  1px solid rgb(104, 104, 104);
-                text-align: center;
                 width: 55%;
+                text-align: center;
+                
             }
             
             .carditem{
@@ -48,6 +49,7 @@
                 border:  1px solid rgb(104, 104, 104);
                 width: 100%;
                 text-align: center;
+                
             }
         }
     }

@@ -18,6 +18,7 @@ import Yrden from './components/Sinais/Yrden';
 import EscolasHomes from './components/Escolas/EscolasHome';
 import Lobo from './components/Escolas/Lobo';
 import Gato from './components/Escolas/Gato';
+import Grifo from './components/Escolas/Grifo';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route exact path='/EscolasHome' element={<EscolasHomes />} />
         <Route exact path='/Lobo' element={<Lobo />} />
         <Route exact path='/Gato' element={<Gato />} />
+        <Route exact path='/Grifo' element={<Grifo />} />
       </Routes>
     </Router>
     

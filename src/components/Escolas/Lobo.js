@@ -71,6 +71,10 @@ const Lobo = () => {
                                 <MDBListGroupItem className="cardname">Local</MDBListGroupItem>
                                 <MDBListGroupItem className="carditem">Castelo de Kaer Morhen</MDBListGroupItem>
                             </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem className="cardname">Status</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Ativa</MDBListGroupItem>
+                            </MDBListGroup>
 
                         </MDBCard>
                     </MDBCol>
