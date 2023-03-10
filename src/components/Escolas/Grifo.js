@@ -25,7 +25,7 @@ import EscolaGrifo from '../imagens/Escolas/escolaGrifo.png';
 
 const Grifo = () => {
     return (
-        <section id="gato">
+        <section id="grifo">
             <MDBNavbar className="navbar">
                 <MDBContainer fluid>
                     <MDBNavbarBrand className="mx-2">
