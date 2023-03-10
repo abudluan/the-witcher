@@ -21,8 +21,8 @@ import './Urso.scss';
 
 import EscolaUrso from '../imagens/Escolas/escolaUrso.png';
 
-const Urso = () =>{
-    return(
+const Urso = () => {
+    return (
         <section id="urso">
             <MDBNavbar className="navbar">
                 <MDBContainer fluid>
@@ -46,25 +46,26 @@ const Urso = () =>{
                             <MDBCardBody className="cardbody">
                                 <MDBCardTitle className="text-center"><h2>Escola do Urso</h2></MDBCardTitle>
                                 <MDBCardText>
-                                A Escola do Urso foi uma das conhecidas escolas de bruxos. Até 1272 já tinha desaparecido da história.
-                                <br/><br/>Os bruxos dessa escola usavam armaduras longas, compostas por peles de animais e placas pesadas, favorecendo defesa a vários tipos de fontes, além de ataques poderosos em detrimento de agilidade.Juntamente com os da Escola do Gato, os bruxos da Escola do Urso são os únicos que utilizam bestas em suas caçadas.
+                                    A Escola do Urso foi uma das mais conhecidas escolas de bruxos. Até 1272 já tinha desaparecido
+                                    <br /><br />A Escola do Urso nasceu após um conflito que se deu entre Arnaghad e Rhys, outro bruxo, por um contrato para eliminar um monstro que estava aterroziando uma aldeia nas terras altas de Kaedwenin. Arnaghad, ao lado de aliados, lutou contra Rhys e a Ordem dos Bruxos. Durante a luta, Arnaghad feriu Erland de Laravik no rosto.
+                                    <br /><br />A Ordem venceu o confronto, apesar das várias baixas. Arnaghad e os sobreviventes aliados abandonaram a Ordem dos Bruxos e viajaram para as montanhas Amell, onde ele fundou a Escola do Urso.
                                 </MDBCardText>
                             </MDBCardBody>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem  className="cardname">Nome</MDBListGroupItem>
-                                <MDBListGroupItem  className="carditem">Escola do Urso</MDBListGroupItem>
+                                <MDBListGroupItem className="cardname">Nome</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Escola do Urso</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem  className="cardname">Fundador</MDBListGroupItem>
-                                <MDBListGroupItem  className="carditem">Arnaghad</MDBListGroupItem>
+                                <MDBListGroupItem className="cardname">Lider</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Arnaghad</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem  className="cardname">Local</MDBListGroupItem>
-                                <MDBListGroupItem  className="carditem">Haern Caduch</MDBListGroupItem>
+                                <MDBListGroupItem className="cardname">Local</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Haern Caduch</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem  className="cardname">Status</MDBListGroupItem>
-                                <MDBListGroupItem  className="carditem">Possivelmente extinta</MDBListGroupItem>
+                                <MDBListGroupItem className="cardname">Status</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Possivelmente extinta</MDBListGroupItem>
                             </MDBListGroup>
 
                         </MDBCard>
