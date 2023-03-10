@@ -60,10 +60,6 @@ const Gato = () => {
                                 <MDBListGroupItem  className="carditem">Gezras de Leyda</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem  className="cardname">Fundador</MDBListGroupItem>
-                                <MDBListGroupItem  className="carditem">Gezras de Leyda</MDBListGroupItem>
-                            </MDBListGroup>
-                            <MDBListGroup horizontal className="cardlist">
                                 <MDBListGroupItem  className="cardname">Local</MDBListGroupItem>
                                 <MDBListGroupItem  className="carditem">Castelo de Stygga</MDBListGroupItem>
                             </MDBListGroup>

@@ -65,10 +65,6 @@ const Grifo = () => {
                                 <MDBListGroupItem className="carditem">Erland de Larvik, Keldar</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem className="cardname">Fundador</MDBListGroupItem>
-                                <MDBListGroupItem className="carditem">Erland de Larvik</MDBListGroupItem>
-                            </MDBListGroup>
-                            <MDBListGroup horizontal className="cardlist">
                                 <MDBListGroupItem className="cardname">Local</MDBListGroupItem>
                                 <MDBListGroupItem className="carditem">Fortaleza de Kaer Seren</MDBListGroupItem>
                             </MDBListGroup>
