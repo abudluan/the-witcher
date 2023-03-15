@@ -1,9 +1,15 @@
 #home {
 
-    position: relative;
-    transform: translate(0%,50%);
-  
-  
+
+    .text-page{
+      text-align: center;
+      margin-top: 0em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      font-weight: 500;
+      background-color: rgb(20, 20, 20);
+    }
+
      img{
       height: 100%;
      }
@@ -29,18 +35,19 @@
   
      @media (max-width:320px) {
   
-        transform: translate(0%,30%);
         img{
           border: solid white 1px;
         }
+
+        
      }
   
      @media (min-width:320px) and (max-width:767px) {
-  
-      transform: translate(0%,30%);
+
       img{
         border: solid white 1px;
       }
+
    }
   
   
