@@ -18,7 +18,7 @@ const Home = () => {
                             <div className='mask overlay' style={{ backgroundColor: 'rgba(36, 36, 36, 0.8)' }}>
                                 <h4>Escolas</h4>
                                 <br />
-                                <p>As Escolas de Bruxo, são os lugares ondem os bruxos recebem seus ensinamentos e também onde recebem as mutações.</p>
+                                <p>As Escolas de Bruxo, são os lugares onde os bruxos recebem seus ensinamentos e também onde recebem as mutações.</p>
                             </div>
                         </Link>
                     </MDBCol>

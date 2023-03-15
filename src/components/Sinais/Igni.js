@@ -49,7 +49,8 @@ const Igni = () => {
                             <MDBCardBody className="cardbody">
                                 <MDBCardTitle><span className="text-danger"><h1>Igni</h1></span></MDBCardTitle>
                                 <MDBCardText>
-                                    <span className="text-danger">Igni</span> é um sinal mágico simples usado por bruxos. Trata-se de uma explosão pirocinética que pode empurrar e queimar oponentes, bem como iniciar incêndios. O sinal <span className="text-danger">Igni</span> é um dos cinco sinais mágicos usados por bruxos e causa uma explosão de fogo que pode repelir oponentes, bem como iniciar incêndios. Geralt ainda pode optar por atualizar o sinal para aumentar sua eficácia. <span className="text-danger">Igni</span> é incrivelmente eficaz contra inimigos que são fracos contra fogo. O nome <span className="text-danger">Igni</span> deriva da palavra latina "Ignis" que significa fogo.
+                                    O nome <span className="text-danger">Igni</span> deriva da palavra latina <q><em>Ignis</em></q> que significa fogo e seu icone também é baseado no símbolo alquímico do fogo. É um dos 5 sinais mágicos simples mais usados pelos bruxos. Trata-se de uma explosão pirocinética que pode empurrar e queimar oponentes, bem como iniciar incêndios. 
+                                    <br/><br/>Nos livros, Geralt não só usa <span className="text-danger">Igni</span> durante as batalhas, mas o usa em seu dia a dia, como para consertar um pote com o intuito de preparar uma sopa de pique.
                                 </MDBCardText>
                             </MDBCardBody>
                             <MDBCardText className="SinaisGroup"><img src={Igni1} /> <img src={Igni2} /> <img src={Igni3} /></MDBCardText>
