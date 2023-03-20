@@ -1,14 +1,17 @@
 #home {
 
-
-    .text-page{
-      text-align: center;
-      margin-top: 0em;
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
-      font-weight: 500;
+    .navbar{
+      display: flex;
       background-color: rgb(20, 20, 20);
+      justify-content: center;
+      height: 6em;
+      .text-page{
+        text-align: center;
+        font-weight: 500;
+        margin: auto;
+      }
     }
+    
 
      img{
       height: 100%;

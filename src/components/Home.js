@@ -10,9 +10,9 @@ import sinaisLogo from './imagens/Sinais/sinais-logo.webp';
 const Home = () => {
     return (
         <section id='home'>
-
+            <div className="navbar">
             <h3 className="text-page">Escolas e Sinais | The Witcher</h3>
-
+            </div>
             <MDBContainer className="d-flex align-items-center justify-content-center">
                 <MDBRow className="my-5">
                     <MDBCol size='md' className='bg-image hover-overlay'>
