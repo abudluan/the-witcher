@@ -1,8 +1,6 @@
 import React from "react";
 import {
     MDBContainer,
-    MDBNavbar,
-    MDBNavbarBrand,
     MDBIcon,
     MDBCard,
     MDBCardTitle,
@@ -25,15 +23,11 @@ import Igni3 from '../imagens/Sinais/igni/igni_simb3.png';
 const Igni = () => {
     return (
         <section id="igni">
-            <MDBNavbar className="navbar">
-                <MDBContainer fluid>
-                    <MDBNavbarBrand className="mx-2">
-                        <Link to="/SinaisHome">
-                            <MDBIcon fas icon="angle-left" className="mx-2" />Voltar
-                        </Link>
-                    </MDBNavbarBrand>
-                </MDBContainer>
-            </MDBNavbar>
+            <div className="navbar">
+                <div>
+                    <Link as={Link} to="/SinaisHome" className="btn-back"><MDBIcon fas icon="angle-left" /> Voltar</Link>
+                </div>
+            </div>
 
 
 

@@ -1,29 +1,39 @@
-#igni{
+#igni {
 
-    .navbar{
+    .navbar {
+        display: flex;
         background-color: rgb(20, 20, 20);
-        a{
+        justify-content: left;
+        height: 3.5em;
+
+        .btn-back {
+            position: absolute;
+            background-color: rgb(20, 20, 20);
             color: white;
-            
+            border: none;
+            margin-top: -0.8em;
+            margin-left: 1em;
+            font-size: 1em;
         }
     }
-    .cardbody{
+
+    .cardbody {
         background-color: rgb(73, 73, 73);
         color: white;
         text-align: justify;
 
-        h1{
+        h1 {
             text-align: center;
             margin-bottom: 0.5em;
         }
 
-        img{
+        img {
             height: 100%;
             width: 100%;
         }
     }
 
-    .SinaisGroup{
+    .SinaisGroup {
         border-top: 1px solid white;
         background-color: rgb(73, 73, 73);
         text-align: center;

@@ -1,8 +1,6 @@
 import React from "react";
 import {
     MDBContainer,
-    MDBNavbar,
-    MDBNavbarBrand,
     MDBIcon,
     MDBRow,
     MDBCol,
@@ -27,15 +25,12 @@ import quen from '../imagens/Sinais/quen.png';
 const SinaisHome = () => {
     return (
         <section id="SinaisHome">
-            <MDBNavbar className="navbar">
-                <MDBContainer fluid>
-                    <MDBNavbarBrand className="mx-2">
-                        <Link to="/">
-                            <MDBIcon fas icon="angle-left" className="mx-2" />Voltar
-                        </Link>
-                    </MDBNavbarBrand>
-                </MDBContainer>
-            </MDBNavbar>
+            <div className="navbar">
+                <div>
+                    <Link as={Link} to="/" className="btn-back"><MDBIcon fas icon="angle-left" /> Voltar</Link>
+                </div>
+                <h2 className="text-page">Sinais</h2>
+            </div>
 
             <MDBContainer className="cardSinais my-5 text-center">
                 <MDBRow>

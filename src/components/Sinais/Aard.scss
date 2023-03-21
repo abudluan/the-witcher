@@ -1,12 +1,21 @@
 #aard{
 
     .navbar{
+        display: flex;
         background-color: rgb(20, 20, 20);
-        a{
-            color: white;
-            
+        justify-content: left;
+        height: 3.5em;
+    
+        .btn-back{
+          position: absolute;
+          background-color: rgb(20, 20, 20);
+          color: white;
+          border: none;
+          margin-top: -0.8em;
+          margin-left: 1em;
+          font-size: 1em;
         }
-    }
+      }
     .cardbody{
         background-color: rgb(73, 73, 73);
         color: white;

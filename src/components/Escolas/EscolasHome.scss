@@ -1,5 +1,4 @@
-#SinaisHome{
-
+#EscolasHome{
   .navbar{
     display: flex;
     background-color: rgb(20, 20, 20);
@@ -23,31 +22,21 @@
       font-size: 1em;
     }
   }
-  
+
     .cardSinais{
-      
+
       width: 70%;
-  
-      .cardIgni, .cardAxii, .cardAard, .cardQuen, .cardYrden{
+
+      .cardLobo, .cardGato, .cardGrifo, .cardUrso, .cardVibora{
         background-color: rgb(73, 73, 73);
         color: white;
         
       }
-  
-      .cardTitle{
-        
-        font-size: 1.5em;
+    
+      img, .bg-image{
+        background-color: rgb(26, 26, 26);
       }
-  
-      .cardText{
-        text-align: center;
-        font-size: 1.1em;
-      }
-  
-    }
-  
-    img, .bg-image {
-      background-color: rgb(26, 26, 26);
     }
     
+  
   }
