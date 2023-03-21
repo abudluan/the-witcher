@@ -12,44 +12,113 @@
       }
     }
     
+    .cardbody{
+      background-color: rgb(20, 20, 20) ;
+      height: 12em;
+    }
+
+    .Escolas{
+
+      .titleEscolas{
+        margin-top: -0.9em;
+      }
+
+      .cardbodyEscolas{
+        background-color: rgb(20, 20, 20) ;
+        height: 14.8em;
+      }
+    }
+
+    .Sinais{
+      .imgSinal{
+        background-color: rgb(20, 20, 20);
+        img{
+          margin-top: 1em;
+        }
+      }
+
+      .cardbodySinal{
+        background-color: rgb(20, 20, 20) ;
+        height: 16em;
+      }
+    }
+    
+    
+    
+
 
      img{
-      height: 100%;
+      background-color: rgb(20, 20, 20);
      }
-  
-     a{
-      color: white;
-      text-decoration: none;
-  
-      h4{
-        margin-top: 1em;
-        text-align: center;
-      }
-  
-      p{
-        text-align: justify !important;
-        text-justify: inter-word;
-        text-align: center;
-        padding-left: 1em;
-        padding-right: 1em;
-      }
-  
+     
+     .textDesc{
+      text-align: justify;
+
      }
+
+     
   
      @media (max-width:320px) {
   
-        img{
-          border: solid white 1px;
+      .Escolas{
+        margin-bottom: 1em;
+        .titleEscolas{
+          margin-top: -0.9em;
         }
+  
+        .cardbodyEscolas{
+          max-height: auto;
+          height: 0%;
+        }
+      }
+
+      .Sinais{
+        .imgSinal{
+          
+          img{
+            margin-top: 1em;
+          }
+        }
+  
+        .cardbodySinal{
+          max-height: auto;
+          height: 0%;
+        }
+      }
+
 
         
      }
   
      @media (min-width:320px) and (max-width:767px) {
 
-      img{
-        border: solid white 1px;
+      .Escolas{
+        margin-bottom: 1em;
+        .titleEscolas{
+          margin-top: -0.9em;
+        }
+  
+        .cardbodyEscolas{
+          max-height: auto;
+          height: 0%;
+        }
       }
+
+      .Sinais{
+        .imgSinal{
+          
+          img{
+            margin-top: 1em;
+          }
+        }
+  
+        .cardbodySinal{
+          max-height: auto;
+          height: 0%;
+        }
+      }
+
+       
 
    }
   

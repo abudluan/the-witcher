@@ -1,40 +1,62 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBNavbar, MDBNavbarBrand } from 'mdb-react-ui-kit';
+import {
+    MDBContainer, MDBRow, MDBCol,
+    MDBCard,
+    MDBCardBody,
+    MDBCardTitle,
+    MDBCardText,
+    MDBCardImage,
+    MDBBtn,
+    MDBRipple
+} from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
 import './Home.scss';
 
-import escolasLogo from './imagens/Escolas/escolas-logo.webp';
-import sinaisLogo from './imagens/Sinais/sinais-logo.webp';
+import escolasLogo from './imagens/Escolas/escolas-logo2.png';
+import sinaisLogo from './imagens/Sinais/sinais-logo2.png';
 
 const Home = () => {
     return (
         <section id='home'>
             <div className="navbar">
-            <h3 className="text-page">Escolas e Sinais | The Witcher</h3>
+                <h3 className="text-page">Escolas e Sinais | The Witcher</h3>
             </div>
-            <MDBContainer className="my-5 d-flex align-items-center justify-content-center">
-                <MDBRow className="my-5">
-                    <MDBCol size='md' className='bg-image hover-overlay'>
-                        <img src={escolasLogo} className='img-fluid rounded' />
-                        <Link to="/EscolasHome">
-                            <div className='mask overlay' style={{ backgroundColor: 'rgba(36, 36, 36, 0.8)' }}>
-                                <h4>Escolas</h4>
-                                <br />
-                                <p>As Escolas de Bruxo, são os lugares onde os bruxos recebem seus ensinamentos e também onde recebem as mutações.</p>
-                            </div>
-                        </Link>
+
+            <MDBContainer className="text-center my-5">
+                <MDBRow>
+                    <MDBCol size='md'>
+                        <MDBCard className="Escolas">
+                            <MDBCardImage src={escolasLogo} position='top' alt='...' />
+                            <MDBCardBody className="cardbodyEscolas">
+                                <MDBCardTitle className="titleEscolas">Escolas</MDBCardTitle>
+                                <MDBCardText className="textDesc">
+                                    No inicio havia uma organização que reunia todos os bruxos, era chamada de Ordem dos Bruxos. Após diversos conflitos, a Ordem de desfez e diversos bruxos se espalharam pelo continente dando origem as escolas, um lugar que oferecia treinamento, ensinamentos e mutações para novos bruxos.
+                                </MDBCardText>
+                                <Link to="/EscolasHome">
+                                    <MDBBtn color='dark' className="btnCard" href='#'>Ver mais</MDBBtn>
+                                </Link>
+                            </MDBCardBody>
+                        </MDBCard>
                     </MDBCol>
-                    <MDBCol size='md' className='bg-image hover-overlay'>
-                        <img src={sinaisLogo} className='img-fluid rounded' />
-                        <Link to="/SinaisHome">
-                            <div className='mask overlay' style={{ backgroundColor: 'rgba(36, 36, 36, 0.8)' }}>
-                                <h4>Sinais</h4>
-                                <br />
-                                <p>Embora não sejam magos que empregam magias poderosas, bruxos podem lançar feitiços mágicos simples, que podem se revelar eficazes, quando utilizados corretamente. Bruxos chamam de "Sinais" e normalmente os usam contra monstros, embora eles também possuam aplicações cotidianas.</p>
+
+                    <MDBCol size='md'>
+                        <MDBCard className="Sinais">
+                            <div className="imgSinal">
+                                <MDBCardImage src={sinaisLogo} position='top' alt='...' />
                             </div>
-                        </Link>
+                            <MDBCardBody className="cardbodySinal">
+                                <MDBCardTitle className="titleSinal">Sinais</MDBCardTitle>
+                                <MDBCardText className="textDesc">
+                                    Embora não sejam magos que empregam magias poderosas, bruxos podem lançar feitiços mágicos simples, que podem se revelar eficazes, quando utilizados corretamente. Bruxos chamam de "Sinais" e normalmente os usam contra monstros, embora eles também possuam aplicações cotidianas.
+                                </MDBCardText>
+                                <Link to="/SinaisHome">
+                                    <MDBBtn color='dark' className="btnCard" href='#'>Ver mais</MDBBtn>
+                                </Link>
+                            </MDBCardBody>
+                        </MDBCard>
                     </MDBCol>
+
                 </MDBRow>
             </MDBContainer>
         </section>
