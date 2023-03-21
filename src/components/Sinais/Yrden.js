@@ -45,7 +45,7 @@ const Yrden = () =>{
                                 — O Último Desejo, pg 27
                                 </MDBCardText>
                             </MDBCardBody>
-                            <MDBCardText className="SinaisGroup"><img src={Yrden1} /> <img src={Yrden2} /> <img src={Yrden3} /></MDBCardText>
+                            <MDBCardText className="SinaisGroup"><img src={Yrden1} alt='' /> <img src={Yrden2} alt='' /> <img src={Yrden3} alt='' /></MDBCardText>
                         </MDBCard>
                     </MDBCol>
 

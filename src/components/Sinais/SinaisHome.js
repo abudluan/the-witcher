@@ -37,10 +37,10 @@ const SinaisHome = () => {
                     <MDBCol size='md py-2'>
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
-                                    <MDBCardImage src={igni} fluid />
-                                    <a>
-                                        <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                    </a>
+                                <MDBCardImage src={igni} fluid />
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardIgni">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Igni</h3></MDBCardTitle>
@@ -48,7 +48,7 @@ const SinaisHome = () => {
                                     <br />
                                 </MDBCardText>
                                 <Link to="/Igni">
-                                <MDBBtn color='dark' className="btnCard">Ver mais</MDBBtn>
+                                    <MDBBtn color='dark' className="btnCard">Ver mais</MDBBtn>
                                 </Link>
                             </MDBCardBody>
                         </MDBCard>
@@ -58,9 +58,9 @@ const SinaisHome = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={axii} fluid />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardAxii">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Axii</h3></MDBCardTitle>
@@ -68,7 +68,7 @@ const SinaisHome = () => {
                                     <br />
                                 </MDBCardText>
                                 <Link to="/Axii">
-                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                    <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                                 </Link>
                             </MDBCardBody>
                         </MDBCard>
@@ -78,9 +78,9 @@ const SinaisHome = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={aard} fluid alt='...' />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardAard">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Aard</h3></MDBCardTitle>
@@ -88,7 +88,7 @@ const SinaisHome = () => {
                                     <br />
                                 </MDBCardText>
                                 <Link to="/Aard">
-                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                    <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                                 </Link>
                             </MDBCardBody>
                         </MDBCard>
@@ -102,9 +102,9 @@ const SinaisHome = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={quen} fluid alt='...' />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardQuen">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Quen</h3></MDBCardTitle>
@@ -112,7 +112,7 @@ const SinaisHome = () => {
                                     <br />
                                 </MDBCardText>
                                 <Link to="/Quen">
-                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                    <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                                 </Link>
                             </MDBCardBody>
                         </MDBCard>
@@ -122,9 +122,9 @@ const SinaisHome = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={yrden} fluid alt='...' />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardYrden">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Yrden</h3></MDBCardTitle>
@@ -132,7 +132,7 @@ const SinaisHome = () => {
                                     <br />
                                 </MDBCardText>
                                 <Link to="/Yrden">
-                                <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
+                                    <MDBBtn color='dark' href='#'>Ver mais</MDBBtn>
                                 </Link>
                             </MDBCardBody>
                         </MDBCard>

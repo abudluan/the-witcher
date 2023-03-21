@@ -37,9 +37,9 @@ const EscolasHomes = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={escolaLobo} fluid />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardLobo">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Escola do Lobo</h3></MDBCardTitle>
@@ -57,9 +57,9 @@ const EscolasHomes = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={escolaGato} fluid />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardGato">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Escola do Gato</h3></MDBCardTitle>
@@ -77,9 +77,9 @@ const EscolasHomes = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={escolaUrso} fluid alt='...' />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardUrso">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Escola do Urso</h3></MDBCardTitle>
@@ -101,9 +101,9 @@ const EscolasHomes = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={escolaGrifo} fluid alt='...' />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardGrifo">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Escola do Grifo</h3></MDBCardTitle>
@@ -123,9 +123,9 @@ const EscolasHomes = () => {
                         <MDBCard>
                             <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                                 <MDBCardImage src={escolaVibora} fluid alt='...' />
-                                <a>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
-                                </a>
+
+                                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.3)' }}></div>
+
                             </MDBRipple>
                             <MDBCardBody className="cardVibora">
                                 <MDBCardTitle className="cardTitle"><br /><h3>Escola do Víbora</h3></MDBCardTitle>

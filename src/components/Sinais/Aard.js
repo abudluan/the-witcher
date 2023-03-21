@@ -47,7 +47,7 @@ const Aard = () => {
                                     — Trecho de O Sangue dos Elfos
                                 </MDBCardText>
                             </MDBCardBody>
-                            <MDBCardText className="SinaisGroup"><img src={Aard1} /> <img src={Aard2} /> <img src={Aard3} /></MDBCardText>
+                            <MDBCardText className="SinaisGroup"><img src={Aard1} alt='' /> <img src={Aard2} alt='' /> <img src={Aard3} alt='' /></MDBCardText>
                         </MDBCard>
                     </MDBCol>
 

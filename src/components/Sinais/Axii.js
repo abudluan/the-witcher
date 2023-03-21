@@ -45,7 +45,7 @@ const Axii = () => {
                                     — O Último Desejo - Pg 36
                                 </MDBCardText>
                             </MDBCardBody>
-                            <MDBCardText className="SinaisGroup"><img src={Axii1} /> <img src={Axii2} /> <img src={Axii3} /></MDBCardText>
+                            <MDBCardText className="SinaisGroup"><img src={Axii1} alt='' /> <img src={Axii2} alt='' /> <img src={Axii3} alt='' /></MDBCardText>
                         </MDBCard>
                     </MDBCol>
 

@@ -6,8 +6,7 @@ import {
     MDBCardTitle,
     MDBCardText,
     MDBCardImage,
-    MDBBtn,
-    MDBRipple
+    MDBBtn
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 

@@ -45,7 +45,7 @@ const Quen = () =>{
                                 — The Witcher 3: Wild Hunt
                                 </MDBCardText>
                             </MDBCardBody>
-                            <MDBCardText className="SinaisGroup"><img src={Quen1} /> <img src={Quen2} /> <img src={Quen3} /></MDBCardText>
+                            <MDBCardText className="SinaisGroup"><img src={Quen1} alt='' /> <img src={Quen2} alt='' /> <img src={Quen3} alt='' /></MDBCardText>
                         </MDBCard>
                     </MDBCol>
 

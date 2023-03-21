@@ -47,7 +47,7 @@ const Igni = () => {
                                     <br/><br/>Nos livros, Geralt não só usa <span className="text-danger">Igni</span> durante as batalhas, mas o usa em seu dia a dia, como para consertar um pote com o intuito de preparar uma sopa de pique.
                                 </MDBCardText>
                             </MDBCardBody>
-                            <MDBCardText className="SinaisGroup"><img src={Igni1} /> <img src={Igni2} /> <img src={Igni3} /></MDBCardText>
+                            <MDBCardText className="SinaisGroup"><img src={Igni1} alt='' /> <img src={Igni2} alt='' /> <img src={Igni3} alt='' /></MDBCardText>
                         </MDBCard>
                     </MDBCol>
 
