@@ -23,7 +23,7 @@ const Home = () => {
                 <h3 className="text-page">Escolas e Sinais | The Witcher</h3>
             </div>
 
-            <MDBContainer className="text-center my-5">
+            <MDBContainer className="text-center my-5 py-5">
                 <MDBRow>
                     <MDBCol size='md'>
                         <MDBCard className="Escolas">
