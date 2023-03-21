@@ -94,7 +94,7 @@
         
      }
   
-     @media (min-width:320px) and (max-width:767px) {
+     @media (min-width:320px) {
 
       .Escolas{
         margin-bottom: 1em;
@@ -103,8 +103,7 @@
         }
   
         .cardbodyEscolas{
-          max-height: auto;
-          height: 0%;
+          height: 100%;
         }
       }
 
@@ -117,8 +116,7 @@
         }
   
         .cardbodySinal{
-          max-height: auto;
-          height: 0%;
+          height: 100%;
         }
       }
 
