@@ -31,7 +31,7 @@ const Home = () => {
                             <MDBCardBody className="cardbodyEscolas">
                                 <MDBCardTitle className="titleEscolas">Escolas</MDBCardTitle>
                                 <MDBCardText className="textDesc">
-                                    No inicio havia uma organização que reunia todos os bruxos, era chamada de Ordem dos Bruxos. Após diversos conflitos, a Ordem de desfez e diversos bruxos se espalharam pelo continente dando origem as escolas, um lugar que oferecia treinamento, ensinamentos e mutações para novos bruxos.
+                                    No inicio, havia uma organização que reunia todos os bruxos, era chamada de Ordem dos Bruxos. Após diversos conflitos, a Ordem de desfez e diversos bruxos se espalharam pelo continente dando origem as escolas, um lugar que oferecia treinamento, ensinamentos e mutações para novos bruxos.
                                 </MDBCardText>
                                 <Link to="/EscolasHome">
                                     <MDBBtn color='dark' className="btnCard" href='#'>Ver mais</MDBBtn>
