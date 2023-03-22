@@ -6,7 +6,9 @@ import {
     MDBCardTitle,
     MDBCardText,
     MDBCardImage,
-    MDBBtn
+    MDBBtn,
+    MDBFooter,
+    MDBIcon
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
@@ -58,6 +60,24 @@ const Home = () => {
 
                 </MDBRow>
             </MDBContainer>
+
+            <MDBFooter className='footer' >
+                <MDBContainer className='iconLink p-1'>
+                    <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/luan-abud/' target="_blank" role='button'>
+                        <MDBIcon fab icon='linkedin-in' />
+                    </MDBBtn>
+
+                    <MDBBtn outline color="light" floating className='m-1' href='https://github.com/abudluan' target="_blank" role='button'>
+                        <MDBIcon fab icon='github' />
+                    </MDBBtn>
+                </MDBContainer>
+
+
+
+                <div className='textLink text-center p-3'>
+                    Desenvolvido por <a href='https://euabud.netlify.app/' target='_blank'> Luan Abud </a>
+                </div>
+            </MDBFooter>
         </section>
     );
 };
