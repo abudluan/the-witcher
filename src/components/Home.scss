@@ -8,7 +8,7 @@
       display: flex;
       background-color: rgb(20, 20, 20);
       justify-content: center;
-      height: 3.5em;
+      height: 5em;
       .text-page{
         text-align: center;
         font-weight: 500;
@@ -69,10 +69,6 @@
      }
   
      @media (max-width:320px) {
-
-      .navbar{
-        height: 4em;
-      }
   
       .Escolas{
         margin-bottom: 1em;
