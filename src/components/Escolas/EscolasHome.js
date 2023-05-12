@@ -10,7 +10,8 @@ import {
     MDBCardText,
     MDBCardImage,
     MDBBtn,
-    MDBRipple
+    MDBRipple,
+    MDBFooter
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 import './EscolasHome.scss';
@@ -24,14 +25,16 @@ import escolaVibora from '../imagens/Escolas/escolaVibora.png';
 const EscolasHomes = () => {
     return (
         <section id="EscolasHome">
-            <div className="navbar">
-                <div>
-                    <Link as={Link} to="/" className="btn-back"><MDBIcon fas icon="angle-left" /> Voltar</Link>
-                </div>
+            <div className="title">
                 <h2 className="text-page">Escolas</h2>
             </div>
 
-            <MDBContainer className="cardSinais my-5 text-center">
+            <div className="btn-back">
+               
+                <Link as={Link} to="/" ><MDBBtn color="dark"><MDBIcon  fas icon="angle-left" /> Voltar</MDBBtn></Link>
+            </div>
+
+            <MDBContainer className="cardSinais text-center">
                 <MDBRow>
                     <MDBCol size='md py-2'>
                         <MDBCard>
@@ -94,7 +97,7 @@ const EscolasHomes = () => {
                     </MDBCol>
                 </MDBRow>
 
-                <MDBRow className="my-5 text-center">
+                <MDBRow className="text-center">
                     <MDBCol md='2'>
                     </MDBCol>
                     <MDBCol md='4 py-2'>
@@ -142,6 +145,25 @@ const EscolasHomes = () => {
                 </MDBRow>
 
             </MDBContainer>
+
+
+            <MDBFooter className='footer mt-5' >
+                <MDBContainer className='iconLink p-1'>
+                    <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/luan-abud/' target="_blank" role='button'>
+                        <MDBIcon fab icon='linkedin-in' />
+                    </MDBBtn>
+
+                    <MDBBtn outline color="light" floating className='m-1' href='https://github.com/abudluan' target="_blank" role='button'>
+                        <MDBIcon fab icon='github' />
+                    </MDBBtn>
+                </MDBContainer>
+
+
+
+                <div className='textLink text-center p-3'>
+                    Desenvolvido por <a href='https://euabud.netlify.app/' target='_blank'> Luan Abud </a>
+                </div>
+            </MDBFooter>
         </section>
     );
 }

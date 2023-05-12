@@ -1,31 +1,32 @@
 #EscolasHome{
-  .navbar{
+  .title{
     display: flex;
     background-color: rgb(20, 20, 20);
     justify-content: center;
-    height: 3.5em;
+    height: 5em;
     align-items: center;
+
     .text-page{
       text-align: center;
       font-weight: 500;
       margin: auto;
       font-size: 2em;
     }
+  }
 
-    .btn-back{
-      position: absolute;
-      background-color: rgb(20, 20, 20);
-      color: white;
-      border: none;
-      margin-top: -0.8em;
-      margin-left: 1em;
-      font-size: 1em;
-    }
+  .btn-back{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.8em;
   }
 
     .cardSinais{
 
       width: 70%;
+
+      @media (max-width:1200px){
+        width: 90%;
+      }
 
       .cardLobo, .cardGato, .cardGrifo, .cardUrso, .cardVibora{
         background-color: rgb(73, 73, 73);
@@ -37,6 +38,21 @@
         background-color: rgb(26, 26, 26);
       }
     }
+
+    .footer{ 
+      margin-top: auto;
+      text-align: center;
+      color: white;
+      background-color: rgb(29, 29, 29);
+      .iconLink{
+
+      }
+
+      .textLink{
+        background-color: #494949;
+      }
+
+     }
     
   
   }
