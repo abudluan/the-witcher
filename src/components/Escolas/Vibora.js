@@ -37,9 +37,21 @@ const Vibora = () => {
                                 <MDBCardText>
                                     <img alt='...' src={EscolaVibora} />
                                     <q><em>Os bruxos víboras são treinados para lutar com lâminas duplas, muitas vezes chamadas de "garras". Este estilo é focado em golpes rápidos e furiosos para sobrecarregar o alvo - seja um monstro ou um homem.</em></q>
-                                    <br /><br />Não muito tempo depois dos desentendimentos entre os bruxos da Escola do Urso e a Ordem dos Bruxos, houve mais um grupo dissidente no qual deu origem à escola da víbora. Eles conseguiram coletar uma incrível coleção de livros e pergaminhos sobre a Caçada Selvagem, levando alguns de seus membros a especular se sua escola foi fundada com o propósito de resolver o enigma dos cavaleiros espectrais. Como resultado, todos os bruxos da escola tinham um grande conhecimento sobre o tema.
-                                    <br /><br />Entre suas principais características está a abordagem de assassinato em suas ações, seja contra monstros ou humanos, com a utilização de duas lâminas ou presas. Suas ações chamaram a atenção de Nilfgaard, na época sob governança do usurpador. O governante em questão tentou encampar a escola, porém, sem sucesso. Então, o exército nilfgaardiano destruiu a fortaleza dos bruxos da víbora, que se espalharam pelo império.
-                                </MDBCardText>
+                                    <br/>
+                                    <br/>
+                                    Após os conflitos entre a Escola do Urso e a Ordem dos Bruxos, uma nova dissidência surgiu, resultando na fundação da Escola da Víbora. Esse grupo dissidente conseguiu reunir uma impressionante coleção de livros e pergaminhos relacionados à Caçada Selvagem, o que levou alguns membros a especularem se sua escola havia sido criada com o propósito de desvendar o enigma por trás dos cavaleiros espectrais. Como resultado, todos os bruxos da Escola da Víbora possuíam um profundo conhecimento sobre esse tema misterioso.
+                                    <br/>
+                                    <br/>
+                                    Uma das características distintivas dessa escola era a sua abordagem assassina em suas ações, tanto contra monstros quanto contra humanos. Os bruxos da Víbora dominavam a arte do combate com o uso de duas lâminas ou presas, sendo hábeis assassinos que se moviam com agilidade e precisão letal. Essas habilidades únicas chamaram a atenção de Nilfgaard, que na época era governada por um usurpador.
+                                    <br/>
+                                    <br/>
+                                    O governante de Nilfgaard tentou subjugar e assimilar a Escola da Víbora ao seu domínio, reconhecendo o valor de seus talentosos bruxos. No entanto, os membros da escola resistiram ferozmente às tentativas de subjugação e protegeram sua independência. Diante da resistência, o exército nilfgaardiano decidiu lançar um ataque devastador à fortaleza dos bruxos da Víbora, visando destruí-la completamente.
+                                    Apesar do feroz combate dos bruxos da Víbora, a fortaleza acabou sendo arrasada pelo poderoso exército de Nilfgaard. Os sobreviventes da escola foram forçados a se dispersar pelo vasto império, espalhando-se por diferentes terras e se adaptando às novas circunstâncias.
+                                    <br/>
+                                    <br/>
+                                    Embora a escola tenha sido dispersa e sua fortaleza destruída, a reputação e o temor associados aos bruxos da Víbora persistiram. Seus membros continuaram a exercer suas habilidades assassinas em diversas partes do império, agindo como sombras mortais que percorriam as terras, sempre mantendo o enigma da Caçada Selvagem em suas mentes.
+
+                                    </MDBCardText>
                             </MDBCardBody>
                             <MDBListGroup horizontal className="cardlist">
                                 <MDBListGroupItem className="cardname">Nome</MDBListGroupItem>

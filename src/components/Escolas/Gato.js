@@ -39,12 +39,27 @@ const Gato = () => {
                                 <MDBCardText>
                                     <img alt='...' src={EscolaGato} />
                                     <q><em>Os desacreditados Gatos. São bruxos, mas falidos. Mutações falidas. Lunáticos, psicopatas e sádicos.</em></q>
-                                    <br />— Jaskier em Tempo de Tempestade
-                                    <br /><br />A Escola do Gato é uma das escolas da guilda dos bruxos e sua residência era, inicialmente, no Castelo Stygga. Atualmente, a escola se tornou nômade, e sua sede é a Caravana Dyn Marv.<br /><br />
-                                    O nome Gato foi escolhido pelos próprios bruxos que não tiveram mutações bem-sucedidas. Eles literalmente são bruxos falidos e são agressivos, cruéis e imprevisíveis. Por isso a fama de lunáticos, psicopatas e sádicos.
-                                    <br /><br />Os Gatos (ou Felinos) foram bruxos que desenvolveram estilos de combate baseados em velocidade, precisão e agilidade. Dessa forma, bruxos que as usam não causam muito dano, mas seus golpes podem surtir efeitos críticos mortais. Como consequência, seu equipamento foi projetado para maximizar flexibilidade e fornecer a maior variedade de movimentação.
-                                    Infelizmente, os membros dessa escola se revelaram tão flexíveis em termos de moralidade e política quanto em sua armadura. Com o tempo, tornaram-se párias até em meio aos bruxos, dado o seu costume de aceitarem contratos de humanos tanto quanto de monstros, além de outras atividades não previstas no código de bruxos. Nos romances, Geralt de Rívia afirmou repetidas vezes que bruxos não aceitam dinheiro para matar pessoas. Uma das possíveis razões disso são as mutações, que tendem a criar um anormal número de bruxos psicóticos. Independentemente das razões, eles são conhecidos por terem traído a Escola do Lobo e gerado um massacre durante o torneio.
-                                </MDBCardText>
+                                    <br />
+                                    — Jaskier em Tempo de Tempestade
+                                    <br />
+                                    <br />
+                                    A história da Escola do Gato é envolta em mistério e muitas vezes obscura, assim como os próprios bruxos que a compõem. A origem exata da escola e seu fundador são tópicos frequentemente debatidos, mas há indícios de que a escola tenha sido formada no século XIII.
+                                    <br />
+                                    <br />
+                                    Diferente de outras escolas de bruxos, a Escola do Gato possui uma abordagem mais furtiva e assassina. Seus membros são conhecidos por serem especialistas em assassinato e espionagem, sendo contratados para realizar trabalhos de extrema precisão e discrição. Eles são habilidosos em se infiltrar nas sombras, eliminar seus alvos sem serem detectados e desaparecer sem deixar rastros.
+                                    <br />
+                                    <br />
+                                    Ao longo dos séculos, a Escola do Gato foi liderada por diferentes indivíduos, cada um deixando sua marca na formação e no treinamento dos bruxos. Um dos líderes mais notáveis foi o lendário mestre bruxo conhecido como Mestre da Faca. Sua habilidade com lâminas era lendária e sua técnica se tornou parte integrante do currículo da escola.
+                                    <br />
+                                    <br />
+                                    O treinamento na Escola do Gato é conhecido por ser intenso e brutal. Os aspirantes a bruxos passam por um rigoroso programa de treinamento físico, aprendizado de técnicas de assassino e aprimoramento de suas habilidades mágicas. A mutação é uma parte fundamental do processo, com os bruxos sendo submetidos a experimentos e rituais para aumentar sua agilidade, sentidos e resistência.
+                                    <br />
+                                    <br />
+                                    Infelizmente, os membros dessa escola se revelaram tão flexíveis em termos de moralidade e política quanto em sua armadura. Com o tempo, tornaram-se párias até em meio aos bruxos, dado o seu costume de aceitarem contratos de humanos tanto quanto de monstros, além de outras atividades não previstas no código dos bruxos.
+                                    A Escola do Gato é vista com desconfiança e até mesmo temor por muitos. Seus métodos e estilo de vida tornam-nos alvos frequentes de preconceito e perseguição. No entanto, eles são respeitados por suas habilidades letais e são procurados por aqueles que precisam de um trabalho feito sem deixar rastros.
+
+                                    
+                                    </MDBCardText>
                             </MDBCardBody>
                             <MDBListGroup horizontal className="cardlist">
                                 <MDBListGroupItem className="cardname">Nome</MDBListGroupItem>
