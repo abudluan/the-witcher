@@ -10,11 +10,14 @@ import {
     MDBCardText,
     MDBCardImage,
     MDBBtn,
-    MDBRipple
+    MDBRipple,
+    MDBFooter
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
 import './SinaisHome.scss';
+
+import Footer from "../Footer/Footer";
 
 import igni from '../imagens/Sinais/igni.png';
 import aard from '../imagens/Sinais/aard.png'
@@ -25,11 +28,13 @@ import quen from '../imagens/Sinais/quen.png';
 const SinaisHome = () => {
     return (
         <section id="SinaisHome">
-            <div className="navbar">
-                <div>
-                    <Link as={Link} to="/" className="btn-back"><MDBIcon fas icon="angle-left" /> Voltar</Link>
-                </div>
-                <h2 className="text-page">Sinais</h2>
+           <div className="title">
+                <h2 className="text-page">Escolas</h2>
+            </div>
+
+            <div className="btn-back">
+               
+                <Link as={Link} to="/" ><MDBBtn color="dark"><MDBIcon  fas icon="angle-left" /> Voltar</MDBBtn></Link>
             </div>
 
             <MDBContainer className="cardSinais my-5 text-center">
@@ -95,7 +100,7 @@ const SinaisHome = () => {
                     </MDBCol>
                 </MDBRow>
 
-                <MDBRow className="my-5 text-center">
+                <MDBRow className="text-center">
                     <MDBCol md='2'>
                     </MDBCol>
                     <MDBCol md='4 py-2'>
@@ -141,6 +146,8 @@ const SinaisHome = () => {
                 </MDBRow>
 
             </MDBContainer>
+
+            <Footer />
 
         </section>
     );

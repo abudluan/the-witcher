@@ -1,10 +1,10 @@
 #SinaisHome{
 
-  .navbar{
+  .title{
     display: flex;
     background-color: rgb(20, 20, 20);
     justify-content: center;
-    height: 3.5em;
+    height: 5em;
     align-items: center;
     .text-page{
       text-align: center;
@@ -12,22 +12,22 @@
       margin: auto;
       font-size: 2em;
     }
+  }
 
-    .btn-back{
-      position: absolute;
-      background-color: rgb(20, 20, 20);
-      color: white;
-      border: none;
-      margin-top: -0.8em;
-      margin-left: 1em;
-      font-size: 1em;
-    }
+  .btn-back{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.8em;
   }
   
     .cardSinais{
       
       width: 70%;
-  
+      
+      @media (max-width:1200px){
+        width: 90%;
+      }
+
       .cardIgni, .cardAxii, .cardAard, .cardQuen, .cardYrden{
         background-color: rgb(73, 73, 73);
         color: white;

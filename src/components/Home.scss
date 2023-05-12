@@ -1,14 +1,15 @@
 #home {
-
     min-height: 100vh;
     flex-direction: column;
     display: flex;
     
-    .navbar{
+
+    .title{
       display: flex;
       background-color: rgb(20, 20, 20);
       justify-content: center;
       height: 5em;
+
       .text-page{
         text-align: center;
         font-weight: 500;
@@ -50,21 +51,6 @@
      
      .textDesc{
       text-align: justify;
-
-     }
-
-     .footer{
-      margin-top: auto;
-      text-align: center;
-      color: white;
-      background-color: rgb(29, 29, 29);
-      .iconLink{
-
-      }
-
-      .textLink{
-        background-color: #494949;
-      }
 
      }
   
@@ -137,7 +123,5 @@
         }
       }
    }
-  
-  
      
   }

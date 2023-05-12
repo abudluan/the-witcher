@@ -14,13 +14,15 @@ import { Link } from 'react-router-dom';
 
 import './Home.scss';
 
+import Footer from "./Footer/Footer";
+
 import escolasLogo from './imagens/Escolas/escolas-logo2.png';
 import sinaisLogo from './imagens/Sinais/sinais-logo2.png';
 
 const Home = () => {
     return (
         <section id='home'>
-            <div className="navbar">
+            <div className="title">
                 <h3 className="text-page">Escolas e Sinais | The Witcher</h3>
             </div>
 
@@ -61,23 +63,8 @@ const Home = () => {
                 </MDBRow>
             </MDBContainer>
 
-            <MDBFooter className='footer' >
-                <MDBContainer className='iconLink p-1'>
-                    <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/luan-abud/' target="_blank" role='button'>
-                        <MDBIcon fab icon='linkedin-in' />
-                    </MDBBtn>
+            <Footer />
 
-                    <MDBBtn outline color="light" floating className='m-1' href='https://github.com/abudluan' target="_blank" role='button'>
-                        <MDBIcon fab icon='github' />
-                    </MDBBtn>
-                </MDBContainer>
-
-
-
-                <div className='textLink text-center p-3'>
-                    Desenvolvido por <a href='https://euabud.netlify.app/' target='_blank'> Luan Abud </a>
-                </div>
-            </MDBFooter>
         </section>
     );
 };
