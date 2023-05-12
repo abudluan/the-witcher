@@ -10,36 +10,34 @@ import {
     MDBRow,
     MDBCol,
     MDBListGroup,
-    MDBListGroupItem
+    MDBListGroupItem,
+    MDBBtn
 
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
-import './Gato.scss';
+import './StylesEscola.scss';
+
+import Footer from "../Footer/Footer";
 
 import EscolaGato from '../imagens/Escolas/escolaGato.png';
 
 const Gato = () => {
     return (
-        <section id="gato">
-            <div className="navbar">
-                <div>
-                    <Link as={Link} to="/EscolasHome" className="btn-back"><MDBIcon fas icon="angle-left" /> Voltar</Link>
-                </div>
-            </div>
+        <section id="escola">
+            
 
             <MDBContainer>
+            <div className="btn-back">
+                <Link as={Link} to="/EscolasHome" ><MDBBtn color="dark"><MDBIcon fas icon="angle-left" /> Voltar</MDBBtn></Link>
+            </div>
                 <MDBRow>
-
-                    <MDBCol size='md'>
-                    </MDBCol>
-
                     <MDBCol size='md my-5'>
                         <MDBCard className="cardEscola">
-                            <MDBCardImage position='top' alt='...' src={EscolaGato} />
                             <MDBCardBody className="cardbody">
                                 <MDBCardTitle className="text-center"><h2>Escola do Gato</h2></MDBCardTitle>
                                 <MDBCardText>
+                                    <img alt='...' src={EscolaGato} />
                                     <q><em>Os desacreditados Gatos. São bruxos, mas falidos. Mutações falidas. Lunáticos, psicopatas e sádicos.</em></q>
                                     <br />— Jaskier em Tempo de Tempestade
                                     <br /><br />A Escola do Gato é uma das escolas da guilda dos bruxos e sua residência era, inicialmente, no Castelo Stygga. Atualmente, a escola se tornou nômade, e sua sede é a Caravana Dyn Marv.<br /><br />
@@ -53,27 +51,35 @@ const Gato = () => {
                                 <MDBListGroupItem className="carditem">Escola do Gato</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem className="cardname">Líder</MDBListGroupItem>
+                                <MDBListGroupItem className="cardname">Fundador</MDBListGroupItem>
                                 <MDBListGroupItem className="carditem">Gezras de Leyda</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem className="cardname">Local</MDBListGroupItem>
+                                <MDBListGroupItem className="cardname">Líderes</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Gezras de Leyda e Treyse</MDBListGroupItem>
+                            </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem className="cardname">Sede</MDBListGroupItem>
                                 <MDBListGroupItem className="carditem">Castelo de Stygga</MDBListGroupItem>
+                            </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem className="cardname">País</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Ebbing</MDBListGroupItem>
+                            </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem className="cardname">Atividades</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Contratos de Bruxos Mercenários</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
                                 <MDBListGroupItem className="cardname">Status</MDBListGroupItem>
                                 <MDBListGroupItem className="carditem">Ativa</MDBListGroupItem>
                             </MDBListGroup>
-
                         </MDBCard>
                     </MDBCol>
-
-                    <MDBCol size='md'>
-                    </MDBCol>
-
                 </MDBRow>
             </MDBContainer>
 
+        <Footer />
 
         </section>
     );

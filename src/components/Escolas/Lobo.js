@@ -10,36 +10,34 @@ import {
     MDBRow,
     MDBCol,
     MDBListGroup,
-    MDBListGroupItem
+    MDBListGroupItem,
+    MDBBtn
 
 } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 
 import EscolaLobo from '../imagens/Escolas/escolaLobo.png';
 
-import './Lobo.scss';
+import './StylesEscola.scss';
+
+import Footer from "../Footer/Footer";
 
 const Lobo = () => {
     return (
-        <section id="lobo">
-            <div className="navbar">
-                <div>
-                    <Link as={Link} to="/EscolasHome" className="btn-back"><MDBIcon fas icon="angle-left" /> Voltar</Link>
-                </div>
-            </div>
+        <section id="escola">
 
             <MDBContainer>
+                <div className="btn-back">
+                    <Link as={Link} to="/EscolasHome" ><MDBBtn color="dark"><MDBIcon fas icon="angle-left" /> Voltar</MDBBtn></Link>
+                </div>
                 <MDBRow>
-
-                    <MDBCol size='md'>
-                    </MDBCol>
 
                     <MDBCol size='md my-5'>
                         <MDBCard className="cardEscola">
-                            <MDBCardImage position='top' alt='...' src={EscolaLobo} />
                             <MDBCardBody className="cardbody">
                                 <MDBCardTitle className="text-center"><h2>Escola do Lobo</h2></MDBCardTitle>
                                 <MDBCardText>
+                                    <img alt="" src={EscolaLobo} />
                                     A Escola do Lobo é uma escola de bruxos, com sede em Kaer Morhen em Kaedwen.
                                     É a escola que Geralt de Rivia pertence.<br /><br />
 
@@ -62,8 +60,16 @@ const Lobo = () => {
                                 <MDBListGroupItem className="carditem">Vesemir</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
-                                <MDBListGroupItem className="cardname">Local</MDBListGroupItem>
+                                <MDBListGroupItem className="cardname">Sede</MDBListGroupItem>
                                 <MDBListGroupItem className="carditem">Kaer Morhen</MDBListGroupItem>
+                            </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem className="cardname">País</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Kaedwen</MDBListGroupItem>
+                            </MDBListGroup>
+                            <MDBListGroup horizontal className="cardlist">
+                                <MDBListGroupItem className="cardname">Atividades</MDBListGroupItem>
+                                <MDBListGroupItem className="carditem">Contrato de Bruxos</MDBListGroupItem>
                             </MDBListGroup>
                             <MDBListGroup horizontal className="cardlist">
                                 <MDBListGroupItem className="cardname">Status</MDBListGroupItem>
@@ -73,13 +79,10 @@ const Lobo = () => {
                         </MDBCard>
                     </MDBCol>
 
-                    <MDBCol size='md'>
-                    </MDBCol>
-
                 </MDBRow>
             </MDBContainer>
 
-
+            <Footer />
         </section>
     );
 }
